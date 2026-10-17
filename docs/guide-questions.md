@@ -1,6 +1,6 @@
-# Guide d'écriture des questions — Trinque
+# Guide d'écriture des questions — Tise
 
-Ce guide fait foi pour toute question ajoutée à la banque (`Trinque/Features/Game/Data/Resources/prompts.json`).
+Ce guide fait foi pour toute question ajoutée à la banque (`Tise/Features/Game/Data/Resources/prompts.json`).
 Il a servi de brief aux agents qui ont écrit la première banque.
 
 ## D'où viennent les règles
@@ -44,7 +44,7 @@ Il a servi de brief aux agents qui ont écrit la première banque.
 |---|---|---|
 | `kind` | `statement`, `truth`, `dare` | le type de carte |
 | `level` | `soft`, `hot` | Soft : tout public adulte, bon enfant. Hot : 18+, séduction et sexe |
-| `sips` | 1 à 5 | gorgées en jeu : celles que boit qui l'a fait (Je n'ai jamais) ou qui refuse (Action ou Vérité) |
+| `sips` | 1 à 5 | les tises en jeu (l'unité de l'app : une tise, une gorgée) : celles que boit qui l'a fait (Je n'ai jamais) ou qui refuse (Action ou Vérité) |
 | `player` | `any`, `male`, `female` | le sexe du joueur qui peut recevoir la carte. `any` dans 85 % des cas ; toujours `any` pour `statement` |
 | `target` | `none`, `any`, `opposite`, `same`, `male`, `female` | un autre joueur nommé dans la phrase via `{target}`. `opposite`/`same` se comprennent par rapport au joueur dont c'est le tour |
 | `text` | la phrase | voir les jetons ci-dessous |
