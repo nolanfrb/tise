@@ -1,0 +1,577 @@
+{
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "%lld gorgées" : {
+      "comment" : "Sips at stake on a card in Never Have I Ever: those who have done it drink this many.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sip"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sips"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld gorgée"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld gorgées"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "À table" : {
+      "comment" : "Header of the list of players in the roster.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the table"
+          }
+        }
+      }
+    },
+    "Action" : {
+      "comment" : "Button: the current player picks a dare.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dare"
+          }
+        }
+      }
+    },
+    "Action ou" : {
+      "comment" : "First line of the Truth or Dare tile on the home screen, above the big colored word.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truth or"
+          }
+        }
+      }
+    },
+    "Action ou Vérité" : {
+      "comment" : "Name of the Truth or Dare game, used as a screen title.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truth or Dare"
+          }
+        }
+      }
+    },
+    "Action ou vérité ?" : {
+      "comment" : "Asked to the player whose turn it is, under their name.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truth or dare?"
+          }
+        }
+      }
+    },
+    "Action pour %@" : {
+      "comment" : "Line above a dare card; %@ is the player's name.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dare for %@"
+          }
+        }
+      }
+    },
+    "Ajoute encore %lld joueurs pour lancer la partie" : {
+      "comment" : "Hint above the launch button while players are missing.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Add %lld more player to start the game"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Add %lld more players to start the game"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ajoute encore %lld joueur pour lancer la partie"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ajoute encore %lld joueurs pour lancer la partie"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Ajoute un joueur" : {
+      "comment" : "Placeholder of the field where a player's name is typed.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a player"
+          }
+        }
+      }
+    },
+    "Ajouter le joueur" : {
+      "comment" : "Button that adds the typed player to the table.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add player"
+          }
+        }
+      }
+    },
+    "Aléatoire" : {
+      "comment" : "Level that mixes soft and hot cards.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Random"
+          }
+        }
+      }
+    },
+    "Cartes jouées" : {
+      "comment" : "Accessibility label of the progress bar of a party.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cards played"
+          }
+        }
+      }
+    },
+    "Chacun son tour, le joueur choisit Action ou Vérité. Une vérité se dit franchement, une action se fait jusqu'au bout. Tu refuses ? Tu bois les gorgées de la carte, sans discussion. Une gorgée d'eau compte aussi." : {
+      "comment" : "Rules of Truth or Dare, shown in an alert.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take turns picking Truth or Dare. A truth gets an honest answer, a dare gets done all the way. Refusing? Drink the sips on the card, no arguing. A sip of water counts too."
+          }
+        }
+      }
+    },
+    "Compris" : {
+      "comment" : "Dismisses the rules alert.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Got it"
+          }
+        }
+      }
+    },
+    "Femme" : {
+      "comment" : "Sex of a player: woman.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woman"
+          }
+        }
+      }
+    },
+    "Fun et bon enfant, pour chauffer la table" : {
+      "comment" : "Description of the Soft level.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light and friendly, to warm up the table"
+          }
+        }
+      }
+    },
+    "Homme" : {
+      "comment" : "Sex of a player: man.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Man"
+          }
+        }
+      }
+    },
+    "Hot" : {
+      "comment" : "Name of the spicy, 18+ level.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hot"
+          }
+        }
+      }
+    },
+    "Il faut au moins %lld joueurs pour lancer une partie." : {
+      "comment" : "Footer of the roster while there are too few players.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You need at least %lld player to start a game."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You need at least %lld players to start a game."
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il faut au moins %lld joueur pour lancer une partie."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il faut au moins %lld joueurs pour lancer une partie."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "JAMAIS" : {
+      "comment" : "Big colored word of the Never Have I Ever tile, under its first line.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I EVER"
+          }
+        }
+      }
+    },
+    "Je n'ai" : {
+      "comment" : "First line of the Never Have I Ever tile on the home screen, above the big colored word.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Never have"
+          }
+        }
+      }
+    },
+    "Je n'ai jamais" : {
+      "comment" : "Name of the Never Have I Ever game, used as a screen title.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Never Have I Ever"
+          }
+        }
+      }
+    },
+    "Joueurs" : {
+      "comment" : "Title of the roster sheet.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Players"
+          }
+        }
+      }
+    },
+    "Joueurs (%lld)" : {
+      "comment" : "Button that opens the roster; %lld is the number of players.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Players (%lld)"
+          }
+        }
+      }
+    },
+    "Lancer" : {
+      "comment" : "Button that starts the party.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        }
+      }
+    },
+    "Les cartes n'ont pas chargé" : {
+      "comment" : "Error shown when the card bank cannot be read.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The cards didn't load"
+          }
+        }
+      }
+    },
+    "Lisez la phrase à voix haute. Tous ceux qui l'ont déjà fait boivent les gorgées de la carte, puis racontent. Une gorgée d'eau compte aussi." : {
+      "comment" : "Rules of Never Have I Ever, shown in an alert.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read the line out loud. Everyone who has done it drinks the sips on the card, then tells the story. A sip of water counts too."
+          }
+        }
+      }
+    },
+    "Pimenté et osé, réservé aux 18 ans et plus" : {
+      "comment" : "Description of the Hot level.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spicy and daring, for ages 18 and up"
+          }
+        }
+      }
+    },
+    "Plus de carte pour cette table" : {
+      "comment" : "Title shown when no card fits the players at the table.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cards left for this table"
+          }
+        }
+      }
+    },
+    "Réessayer" : {
+      "comment" : "Button that retries loading the cards.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
+          }
+        }
+      }
+    },
+    "Refus : %lld gorgées" : {
+      "comment" : "Sips a player drinks to refuse a truth or a dare.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Refuse: %lld sip"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Refuse: %lld sips"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Refus : %lld gorgée"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Refus : %lld gorgées"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Règles" : {
+      "comment" : "Toolbar button that shows the rules of the game.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rules"
+          }
+        }
+      }
+    },
+    "Reviens en arrière pour changer de niveau ou ajouter des joueurs." : {
+      "comment" : "Advice under the no-cards-left title.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go back to change the level or add players."
+          }
+        }
+      }
+    },
+    "Sexe" : {
+      "comment" : "Picker for a new player's sex.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sex"
+          }
+        }
+      }
+    },
+    "Soft" : {
+      "comment" : "Name of the light, friendly level.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soft"
+          }
+        }
+      }
+    },
+    "Suivant" : {
+      "comment" : "Button that deals the next card.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        }
+      }
+    },
+    "Trinque" : {
+      "comment" : "App name, never translated.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trinque"
+          }
+        }
+      }
+    },
+    "Un mélange de Soft et de Hot qui monte en température" : {
+      "comment" : "Description of the Random level, which mixes both and heats up.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mix of Soft and Hot that heats up as you play"
+          }
+        }
+      }
+    },
+    "Vérité" : {
+      "comment" : "Button: the current player picks a truth.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truth"
+          }
+        }
+      }
+    },
+    "VÉRITÉ" : {
+      "comment" : "Big colored word of the Truth or Dare tile, under its first line.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DARE"
+          }
+        }
+      }
+    },
+    "Vérité pour %@" : {
+      "comment" : "Line above a truth card; %@ is the player's name.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truth for %@"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
