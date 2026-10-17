@@ -54,12 +54,26 @@ private struct PromptLead: View {
             Text("Vérité pour \(draw.player?.name ?? "")")
         case .dare:
             Text("Action pour \(draw.player?.name ?? "")")
+        case .ask:
+            Text("Réponds sans filtre")
+        case .vote:
+            Text("Tout le monde vote")
+        case .point:
+            Text("Tout le monde pointe")
         }
     }
 }
 
 #Preview("Card — never have I ever") {
     if let draw = PromptPreviewData.draw(.statement) {
+        PromptCard(draw: draw)
+            .padding()
+            .appPreview()
+    }
+}
+
+#Preview("Card — sans tact question") {
+    if let draw = PromptPreviewData.draw(.ask) {
         PromptCard(draw: draw)
             .padding()
             .appPreview()

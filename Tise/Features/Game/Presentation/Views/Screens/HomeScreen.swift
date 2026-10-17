@@ -6,7 +6,7 @@ struct HomeScreen: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 22) {
                 PlayersButton()
-                HStack(spacing: 14) {
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 14), GridItem(.flexible(), spacing: 14)], spacing: 14) {
                     ForEach(Game.allCases, id: \.self) { game in
                         NavigationLink(value: game) {
                             GameTile(game: game)

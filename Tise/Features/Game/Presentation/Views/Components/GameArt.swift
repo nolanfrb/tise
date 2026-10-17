@@ -14,6 +14,8 @@ struct GameArt: View {
             }
         case .neverHaveIEver:
             GlowSymbol(name: "hand.raised.fingers.spread.fill", colors: [Color(hex: 0xFFE07A), Color(hex: 0xFF9F1C)], size: size)
+        case .blunt:
+            GlowSymbol(name: "quote.bubble.fill", colors: [Color(hex: 0xFFA26B), AppColors.blunt], size: size)
         }
     }
 }
@@ -22,6 +24,7 @@ struct GameArt: View {
     HStack(spacing: 40) {
         GameArt(game: .truthOrDare)
         GameArt(game: .neverHaveIEver)
+        GameArt(game: .blunt)
     }
     .appPreview()
 }

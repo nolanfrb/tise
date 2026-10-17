@@ -53,18 +53,18 @@ final class GameViewModel {
 
     /// Deals the truth or the dare the current player picked.
     func choose(_ kind: PromptKind) {
-        publish(deal(kind, for: currentPlayer))
+        publish(deal([kind], for: currentPlayer))
     }
 
     /// Replaces the card on the table with another of the same kind, for the same player.
     func skip() {
         guard case .loaded(let round) = state, case .card(let draw) = round.stage else { return }
-        publish(deal(draw.prompt.kind, for: draw.player))
+        publish(deal([draw.prompt.kind], for: draw.player))
     }
 
-    /// Moves on to the next round, handing the turn to the next player in truth or dare.
+    /// Moves on to the next round, handing the turn to the next player when the game rotates turns.
     func next() {
-        if setup.game == .truthOrDare {
+        if setup.game.rotatesTurns {
             turn += 1
         }
         startRound()
@@ -80,12 +80,14 @@ final class GameViewModel {
         case .truthOrDare:
             publish(currentPlayer.map(Round.Stage.choice) ?? .exhausted)
         case .neverHaveIEver:
-            publish(deal(.statement, for: nil))
+            publish(deal([.statement], for: nil))
+        case .blunt:
+            publish(deal(setup.game.kinds, for: currentPlayer))
         }
     }
 
-    private func deal(_ kind: PromptKind, for player: Player?) -> Round.Stage {
-        guard let draw = deck?.draw(kind, for: player, among: roster.players) else { return .exhausted }
+    private func deal(_ kinds: Set<PromptKind>, for player: Player?) -> Round.Stage {
+        guard let draw = deck?.draw(kinds, for: player, among: roster.players) else { return .exhausted }
         return .card(draw)
     }
 

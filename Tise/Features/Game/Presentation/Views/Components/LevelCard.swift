@@ -3,6 +3,7 @@ import SwiftUI
 /// A selectable level of the party: its glyph, its name and what to expect.
 struct LevelCard: View {
     let choice: LevelChoice
+    let game: Game
     let isSelected: Bool
     let onSelect: () -> Void
 
@@ -12,10 +13,10 @@ struct LevelCard: View {
                 GlowSymbol(name: choice.symbol, colors: choice.colors, size: 58)
                     .frame(width: 96)
                 VStack(spacing: 8) {
-                    Text(choice.title)
+                    Text(choice.title(in: game))
                         .font(AppType.title)
                         .foregroundStyle(AppColors.textPrimary)
-                    Text(choice.subtitle)
+                    Text(choice.subtitle(in: game))
                         .font(AppType.body)
                         .foregroundStyle(AppColors.textSecondary)
                 }
@@ -41,9 +42,9 @@ struct LevelCard: View {
 
 #Preview("Level cards") {
     VStack(spacing: 16) {
-        LevelCard(choice: .soft, isSelected: true) {}
-        LevelCard(choice: .hot, isSelected: false) {}
-        LevelCard(choice: .mixed, isSelected: false) {}
+        LevelCard(choice: .soft, game: .truthOrDare, isSelected: true) {}
+        LevelCard(choice: .hot, game: .blunt, isSelected: false) {}
+        LevelCard(choice: .mixed, game: .truthOrDare, isSelected: false) {}
     }
     .padding()
     .appPreview()
