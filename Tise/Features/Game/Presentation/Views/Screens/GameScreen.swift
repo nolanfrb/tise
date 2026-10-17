@@ -13,7 +13,7 @@ struct GameScreen: View {
             ProgressView()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         } content: { round in
-            RoundView(round: round, onChoose: choose, onNext: next)
+            RoundView(round: round, onChoose: choose, onSkip: skip, onNext: next)
         }
         .background(AppColors.background)
         .navigationTitle(viewModel.setup.game.title)
@@ -34,6 +34,12 @@ struct GameScreen: View {
     private func choose(_ kind: PromptKind) {
         withAnimation(.snappy) {
             viewModel.choose(kind)
+        }
+    }
+
+    private func skip() {
+        withAnimation(.snappy) {
+            viewModel.skip()
         }
     }
 

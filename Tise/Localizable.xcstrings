@@ -182,13 +182,13 @@
         }
       }
     },
-    "Chacun son tour, le joueur choisit Action ou Vérité. Une vérité se dit franchement, une action se fait jusqu'au bout. Tu refuses ? Tu bois les tises de la carte, sans discussion. Une tise d'eau, ça compte aussi." : {
+    "Chacun son tour, le joueur choisit Action ou Vérité. Une vérité se dit franchement, une action se fait jusqu'au bout. Tu refuses ? Tu bois les tises de la carte, sans discussion. Une carte ne te plaît pas ? Glisse-la vers la gauche pour la passer. Une tise d'eau, ça compte aussi." : {
       "comment" : "Rules of Truth or Dare, shown in an alert.",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Take turns picking Truth or Dare. A truth gets an honest answer, a dare gets done all the way. Refusing? Drink the sips on the card, no arguing. A sip of water counts too."
+            "value" : "Take turns picking Truth or Dare. A truth gets an honest answer, a dare gets done all the way. Refusing? Drink the sips on the card, no arguing. Don't like a card? Swipe it left to skip it. A sip of water counts too."
           }
         }
       }
@@ -377,13 +377,35 @@
         }
       }
     },
-    "Lisez la phrase à voix haute. Tous ceux qui l'ont déjà fait boivent les tises de la carte, puis racontent. Une tise d'eau, ça compte aussi." : {
+    "Lisez la phrase à voix haute. Tous ceux qui l'ont déjà fait boivent les tises de la carte, puis racontent. Glissez une carte vers la gauche pour la passer. Une tise d'eau, ça compte aussi." : {
       "comment" : "Rules of Never Have I Ever, shown in an alert.",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Read the line out loud. Everyone who has done it drinks the sips on the card, then tells the story. A sip of water counts too."
+            "value" : "Read the line out loud. Everyone who has done it drinks the sips on the card, then tells the story. Swipe a card left to skip it. A sip of water counts too."
+          }
+        }
+      }
+    },
+    "Passer" : {
+      "comment" : "Stamp that grows on a card dragged to the left to skip it.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        }
+      }
+    },
+    "Passer la carte" : {
+      "comment" : "VoiceOver action that skips the card on the table.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip card"
           }
         }
       }

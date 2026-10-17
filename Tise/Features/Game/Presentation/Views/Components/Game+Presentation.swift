@@ -25,9 +25,9 @@ extension Game {
     var rules: LocalizedStringKey {
         switch self {
         case .truthOrDare:
-            "Chacun son tour, le joueur choisit Action ou Vérité. Une vérité se dit franchement, une action se fait jusqu'au bout. Tu refuses ? Tu bois les tises de la carte, sans discussion. Une tise d'eau, ça compte aussi."
+            "Chacun son tour, le joueur choisit Action ou Vérité. Une vérité se dit franchement, une action se fait jusqu'au bout. Tu refuses ? Tu bois les tises de la carte, sans discussion. Une carte ne te plaît pas ? Glisse-la vers la gauche pour la passer. Une tise d'eau, ça compte aussi."
         case .neverHaveIEver:
-            "Lisez la phrase à voix haute. Tous ceux qui l'ont déjà fait boivent les tises de la carte, puis racontent. Une tise d'eau, ça compte aussi."
+            "Lisez la phrase à voix haute. Tous ceux qui l'ont déjà fait boivent les tises de la carte, puis racontent. Glissez une carte vers la gauche pour la passer. Une tise d'eau, ça compte aussi."
         }
     }
 
