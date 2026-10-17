@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// The home of the app: the roster and the two games.
+/// The home of the app: the roster and the games.
 struct HomeScreen: View {
     var body: some View {
         ScrollView {
