@@ -2,12 +2,10 @@ import SwiftUI
 
 /// The home of the app: the roster and the two games.
 struct HomeScreen: View {
-    @State private var isShowingPlayers = false
-
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 22) {
-                PlayersButton { isShowingPlayers = true }
+                PlayersButton()
                 HStack(spacing: 14) {
                     ForEach(Game.allCases, id: \.self) { game in
                         NavigationLink(value: game) {
@@ -22,9 +20,6 @@ struct HomeScreen: View {
         }
         .background(AppColors.background)
         .navigationTitle("Tise")
-        .sheet(isPresented: $isShowingPlayers) {
-            PlayersSheet()
-        }
     }
 }
 

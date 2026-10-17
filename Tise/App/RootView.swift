@@ -14,6 +14,9 @@ struct RootView: View {
     var body: some View {
         NavigationStack {
             HomeScreen()
+                .navigationDestination(for: PlayersRoute.self) { _ in
+                    PlayersScreen()
+                }
                 .navigationDestination(for: Game.self) { game in
                     LevelScreen(game: game)
                 }

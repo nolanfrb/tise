@@ -3,7 +3,6 @@ import SwiftUI
 /// The launch button and, while players are missing, how many more the table needs.
 struct LaunchBar: View {
     let setup: GameSetup
-    let onNeedPlayers: () -> Void
 
     @Environment(PlayerRoster.self) private var roster
 
@@ -18,7 +17,9 @@ struct LaunchBar: View {
                     .font(AppType.caption)
                     .foregroundStyle(AppColors.textTertiary)
                     .multilineTextAlignment(.center)
-                Button("Lancer", action: onNeedPlayers)
+                NavigationLink(value: PlayersRoute()) {
+                    Text("Lancer")
+                }
             }
         }
         .buttonStyle(.raised)
@@ -30,7 +31,7 @@ struct LaunchBar: View {
 
 #Preview("Launch bar — ready") {
     NavigationStack {
-        LaunchBar(setup: GameSetup(game: .truthOrDare, level: .soft)) {}
+        LaunchBar(setup: GameSetup(game: .truthOrDare, level: .soft))
             .appPreview()
     }
 }

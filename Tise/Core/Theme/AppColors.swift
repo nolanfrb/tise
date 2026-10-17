@@ -15,6 +15,8 @@ enum AppColors {
     static let truth = Color(hex: 0x5B6CD8)
     static let truthEdge = Color(hex: 0x3B479E)
     static let never = Color(hex: 0xFFC83D)
+    static let female = Color(hex: 0xFF6FAE)
+    static let male = Color(hex: 0x5B8CFF)
 
     static let textPrimary = Color.white
     static let textSecondary = Color(hex: 0xB0B3BC)
