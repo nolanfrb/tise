@@ -62,6 +62,9 @@ Exemples : `As-tu déjà été {p:jaloux|jalouse} du couple d'un pote ?` ·
 
 Pour `target: "male"` ou `"female"` le sexe de la cible est connu : on écrit directement l'accord, sans `{t:…}`.
 
+Le jeu élide tout seul « de » et « que » devant un prénom qui commence par une voyelle ou un h
+(« la main d'Anaïs », « dis qu'Hugo… ») : on écrit `de {target}` et `que {target}` normalement.
+
 ## Règles par type
 
 ### Je n'ai jamais (`statement`)
