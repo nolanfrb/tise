@@ -3,6 +3,7 @@ nonisolated enum Game: String, CaseIterable, Hashable, Sendable {
     case truthOrDare
     case neverHaveIEver
     case blunt
+    case ten
 
     static let minimumPlayers = 2
 
@@ -12,6 +13,7 @@ nonisolated enum Game: String, CaseIterable, Hashable, Sendable {
         case .truthOrDare: [.truth, .dare]
         case .neverHaveIEver: [.statement]
         case .blunt: [.ask, .vote, .point]
+        case .ten: [.ten]
         }
     }
 

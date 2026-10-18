@@ -19,6 +19,7 @@ enum AppColors {
     static let male = Color(hex: 0x5B8CFF)
     static let skip = Color(hex: 0xFF4D5E)
     static let blunt = Color(hex: 0xFF5A3C)
+    static let ten = Color(hex: 0x4ADE80)
 
     static let textPrimary = Color.white
     static let textSecondary = Color(hex: 0xB0B3BC)

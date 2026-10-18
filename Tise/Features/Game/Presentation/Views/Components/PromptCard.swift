@@ -60,6 +60,8 @@ private struct PromptLead: View {
             Text("Tout le monde vote")
         case .point:
             Text("Tout le monde pointe")
+        case .ten:
+            Text("\(draw.player?.name ?? "") lit à voix haute : \(Prompt.tenLead(score: draw.prompt.score ?? 10))")
         }
     }
 }
@@ -74,6 +76,14 @@ private struct PromptLead: View {
 
 #Preview("Card — sans tact question") {
     if let draw = PromptPreviewData.draw(.ask) {
+        PromptCard(draw: draw)
+            .padding()
+            .appPreview()
+    }
+}
+
+#Preview("Card — c'est un 10 mais") {
+    if let draw = PromptPreviewData.draw(.ten) {
         PromptCard(draw: draw)
             .padding()
             .appPreview()

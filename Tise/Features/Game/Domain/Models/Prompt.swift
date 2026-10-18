@@ -6,6 +6,7 @@ nonisolated enum PromptKind: String, Hashable, Sendable {
     case ask
     case vote
     case point
+    case ten
 }
 
 /// One card of the bank, before player names and agreements are filled in.
@@ -13,11 +14,17 @@ nonisolated struct Prompt: Identifiable, Hashable, Sendable {
     /// The words every statement card continues, in the language of the bank.
     static let statementLead = "Je n'ai jamais"
 
+    /// The words a « C'est un 10 mais » card continues, with its starting score.
+    static func tenLead(score: Int) -> String {
+        "C'est un \(score), mais…"
+    }
+
     let id: String
     let kind: PromptKind
     let level: Level
     let audience: Audience
     let sips: Int
+    let score: Int?
     let player: PlayerRule
     let target: TargetRule
     let template: String
@@ -28,7 +35,7 @@ nonisolated struct Prompt: Identifiable, Hashable, Sendable {
         return target == .nobody || !target.candidates(for: player, among: players).isEmpty
     }
 
-    /// The card's text with `{player}`, `{target}`, `{p:…|…}` and `{t:…|…}` resolved for these players.
+    /// The card's text with `{player}`, `{target}`, `{p:…|…}`, `{t:…|…}` and `{x:…|…}` resolved for these players.
     func rendered(for player: Player?, target: Player?) -> RenderedPrompt {
         var segments: [RenderedPrompt.Segment] = []
         var rest = template[...]
@@ -69,8 +76,16 @@ nonisolated struct Prompt: Identifiable, Hashable, Sendable {
         }
         let forms = token.dropFirst(2).split(separator: "|", omittingEmptySubsequences: false)
         guard forms.count == 2 else { return .text(String(token)) }
-        let subject = token.hasPrefix("t:") ? target : player
-        return .text(String(subject?.gender == .female ? forms[1] : forms[0]))
+        return .text(String(agreementGender(of: token, player: player, target: target) == .female ? forms[1] : forms[0]))
+    }
+
+    /// The sex an agreement token follows: the target for `t:`, the player's opposite for `x:`, the player otherwise.
+    private static func agreementGender(of token: Substring, player: Player?, target: Player?) -> Gender? {
+        switch token.prefix(2) {
+        case "t:": target?.gender
+        case "x:": player?.gender.opposite
+        default: player?.gender
+        }
     }
 }
 
