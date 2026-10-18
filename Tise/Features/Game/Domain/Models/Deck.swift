@@ -22,7 +22,9 @@ nonisolated struct Deck: Sendable {
 
     init(prompts: [Prompt], setup: GameSetup) {
         let levels = setup.level.levels
-        self.prompts = prompts.filter { setup.game.kinds.contains($0.kind) && levels.contains($0.level) }
+        self.prompts = prompts.filter {
+            setup.game.kinds.contains($0.kind) && levels.contains($0.level) && $0.audience == setup.audience
+        }
         isMixed = levels.count > 1
     }
 
@@ -31,9 +33,9 @@ nonisolated struct Deck: Sendable {
         prompts.isEmpty ? 0 : Double(dealt.count) / Double(prompts.count)
     }
 
-    /// Deals a card of `kind` to `player`, reshuffling it back in once every playable card has come out.
-    mutating func draw(_ kind: PromptKind, for player: Player?, among players: [Player]) -> Draw? {
-        let playable = prompts.filter { $0.kind == kind && $0.isPlayable(by: player, among: players) }
+    /// Deals a card of one of `kinds` to `player`, reshuffling them back in once every playable card has come out.
+    mutating func draw(_ kinds: Set<PromptKind>, for player: Player?, among players: [Player]) -> Draw? {
+        let playable = prompts.filter { kinds.contains($0.kind) && $0.isPlayable(by: player, among: players) }
         let fresh = playable.filter { !dealt.contains($0.id) }
         if fresh.isEmpty {
             dealt.subtract(playable.map(\.id))

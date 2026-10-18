@@ -1,8 +1,11 @@
-/// The kind of card: a statement for the whole table, a truth or a dare for one player.
+/// The kind of card: a statement, a vote or a pointing for the whole table, or a truth, a dare or a blunt question for one player.
 nonisolated enum PromptKind: String, Hashable, Sendable {
     case statement
     case truth
     case dare
+    case ask
+    case vote
+    case point
 }
 
 /// One card of the bank, before player names and agreements are filled in.
@@ -13,6 +16,7 @@ nonisolated struct Prompt: Identifiable, Hashable, Sendable {
     let id: String
     let kind: PromptKind
     let level: Level
+    let audience: Audience
     let sips: Int
     let player: PlayerRule
     let target: TargetRule
@@ -24,7 +28,7 @@ nonisolated struct Prompt: Identifiable, Hashable, Sendable {
         return target == .nobody || !target.candidates(for: player, among: players).isEmpty
     }
 
-    /// The card's text with `{target}`, `{p:…|…}` and `{t:…|…}` resolved for these players.
+    /// The card's text with `{player}`, `{target}`, `{p:…|…}` and `{t:…|…}` resolved for these players.
     func rendered(for player: Player?, target: Player?) -> RenderedPrompt {
         var segments: [RenderedPrompt.Segment] = []
         var rest = template[...]
@@ -59,6 +63,9 @@ nonisolated struct Prompt: Identifiable, Hashable, Sendable {
     private static func resolve(_ token: Substring, player: Player?, target: Player?) -> RenderedPrompt.Segment {
         if token == "target" {
             return .name(target?.name ?? "")
+        }
+        if token == "player" {
+            return .name(player?.name ?? "")
         }
         let forms = token.dropFirst(2).split(separator: "|", omittingEmptySubsequences: false)
         guard forms.count == 2 else { return .text(String(token)) }

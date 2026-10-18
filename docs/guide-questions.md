@@ -120,3 +120,78 @@ comme cible de moquerie, moquerie du physique d'un joueur, harcèlement d'un tie
 - Écrire du neuf. Pas de reprise mot pour mot d'une app ou d'un site existant, pas de quasi-doublon dans la banque.
 - Varier les ouvertures : pas dix Vérités de suite qui commencent par « Quel est ».
 - Varier les thèmes selon les tableaux ci-dessus, aucun thème au-delà de 15 % d'un lot.
+
+## Sans tact
+
+Le jeu des vérités qu'on pense tout bas sur les gens présents. Deux publics : **Potes** (le groupe) et
+**Couple** (deux joueurs en couple). Deux niveaux : **Soft** (`level: "soft"`) et **Hard** (`level: "hot"`).
+
+### Ce que montre l'app de référence (Sans Tact, App Store, captures du 17/10/2026)
+
+Format seulement, aucune question reprise :
+- une carte s'adresse à **un joueur nommé**, son prénom en couleur en tête de phrase, qui doit répondre
+  en **désignant quelqu'un** du groupe ;
+- une carte de **vote** fait lever la main à tout le monde au sujet d'un joueur nommé ;
+- une carte de **pointage** fait désigner tout le monde en même temps ;
+- trois intensités (Soft, Hard, Mix), des modes Potes, Couple, « Les absents ont toujours tort ».
+
+### Ce qui fait une bonne carte Sans tact
+
+Le drama vient du **choix** qu'on impose (désigner, noter, comparer), jamais de la méchanceté de la phrase.
+
+- **Vise un comportement, une habitude, un choix, une manie** : comment on drague, on s'habille, on répond
+  aux messages, on gère l'argent d'une soirée, on part sans dire au revoir. Jamais l'identité, le physique,
+  le poids, la santé, l'argent de quelqu'un, sa famille, son origine, sa religion, son orientation.
+- **La réponse se défend en une phrase et fait rire.** La personne désignée doit pouvoir répliquer.
+- **Humain** : environ 30 % des cartes sont chaleureuses (admiration, gratitude, confiance, « qui ici… pour
+  toi ») ou cachent un compliment derrière une pique. C'est ce qui rend le jeu jouable deux heures.
+- **Du drama, pas trop** : on peut piquer (« qui ici devrait répondre plus vite à ses messages ? »), on ne
+  casse pas une amitié (« qui ici tu n'aimes pas ? » est interdit). En Soft, on ne juge pas le couple d'un
+  joueur présent. En Hard, on peut parler d'ex, de sexe, de défauts, de jalousie, toujours sans cruauté.
+- **Jamais** : deviner l'orientation de quelqu'un, révéler le secret d'un autre, accuser quelqu'un de
+  tromper, parler de mineurs, de violence, de drogues dures.
+
+### Les structures qui marchent
+
+| Structure | Type | Exemple (écrit pour ce guide) |
+|---|---|---|
+| Désignation par un superlatif de comportement | `ask` | `{player}, qui ici finit toujours par raconter la même anecdote ?` |
+| Jugement direct sur un joueur | `ask` | `{player}, quelle habitude de {target} tu changerais si tu pouvais ?` |
+| Comparaison | `ask` | `{player}, entre {target} et toi, qui ment le mieux ?` |
+| Projection | `ask` | `{player}, dans dix ans, {target} fait quel métier ?` |
+| Aveu sur le groupe | `ask` | `{player}, à qui ici tu confierais ton téléphone déverrouillé ?` |
+| Vote | `vote` | `Levez la main si vous pensez que {target} a déjà stalké un ex cette semaine` |
+| Pointage | `point` | `À trois, pointez la personne qui arrivera en retard à son propre mariage` |
+| Couple, sur l'autre | `ask` | `{player}, qu'est-ce que {target} fait sans s'en rendre compte et qui te fait craquer ?` |
+| Couple, qui de nous deux | `point` | `À trois, pointez celui ou celle de vous deux qui boude le plus longtemps` |
+
+### Format
+
+```json
+{"kind": "ask", "level": "soft", "audience": "friends", "sips": 2, "player": "any", "target": "none",
+ "text": "{player}, qui ici finit toujours par raconter la même anecdote ?"}
+```
+
+| Champ | Valeurs |
+|---|---|
+| `kind` | `ask` (question à un joueur), `vote` (tout le monde lève la main au sujet d'un joueur), `point` (tout le monde désigne en même temps) |
+| `level` | `soft` ou `hot` (affiché « Hard ») |
+| `audience` | `friends` (Potes) ou `couple` |
+| `sips` | 1 à 3 en Soft, 2 à 5 en Hard. `ask` : ce que boit le joueur s'il refuse. `vote` : ce que boit `{target}` si la majorité lève la main. `point` : ce que boit la personne la plus désignée |
+| `player` | `any`, `male`, `female` : le sexe du joueur qui reçoit une carte `ask` (`any` dans 90 % des cas, toujours `any` pour `vote` et `point`) |
+| `target` | `none`, `any`, `opposite`, `same`, `male`, `female` (voir les règles par type) |
+
+### Règles par type
+
+- **`ask`** : contient `{player}` exactement une fois (le plus souvent en tête : « {player}, … »), finit par
+  « ? », 6 à 24 mots. `{target}` permis selon `target`. Accords avec `{p:…|…}` (joueur) et `{t:…|…}` (cible).
+- **`vote`** (Potes seulement) : commence par « Levez la main si », contient `{target}` (`target` : `any`,
+  `male` ou `female`), pas de `{player}` ni de `{p:…}`, `{t:…|…}` permis, pas de « ? » final, 8 à 24 mots.
+- **`point`** : commence par « À trois, pointez », aucun jeton, `target: "none"`, pas de « ? » final,
+  6 à 22 mots. En Couple : « celui ou celle de vous deux qui… ».
+- **Couple** : seulement `ask` et `point`. Une carte `ask` de couple parle presque toujours de l'autre :
+  `target: "any"` (la table n'a que deux joueurs, `{target}` est donc le ou la partenaire). Jamais
+  `opposite` ni `same` : le couple peut être de même sexe. Elle reste légère en Soft (habitudes, souvenirs,
+  belle-famille, vacances, jalousie gentille) ; en Hard, intimité, ex, fantasmes, défauts, sans cruauté.
+
+Le jeu élide tout seul « de » et « que » devant un prénom à voyelle : écrire `de {target}` normalement.

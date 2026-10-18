@@ -8,12 +8,12 @@ struct LaunchBar: View {
 
     var body: some View {
         VStack(spacing: 12) {
-            if roster.canStart {
+            if setup.audience.accepts(playerCount: roster.players.count) {
                 NavigationLink(value: setup) {
                     Text("Lancer")
                 }
             } else {
-                Text("Ajoute encore \(roster.missingCount) joueurs pour lancer la partie")
+                missingPlayersHint
                     .font(AppType.caption)
                     .foregroundStyle(AppColors.textTertiary)
                     .multilineTextAlignment(.center)
@@ -26,6 +26,12 @@ struct LaunchBar: View {
         .padding(.horizontal, 20)
         .padding(.top, 8)
         .padding(.bottom, 4)
+    }
+
+    private var missingPlayersHint: Text {
+        roster.canStart
+            ? Text("Le mode Couple se joue à \(Audience.coupleSize) joueurs exactement")
+            : Text("Ajoute encore \(roster.missingCount) joueurs pour lancer la partie")
     }
 }
 

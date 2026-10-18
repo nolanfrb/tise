@@ -5,6 +5,7 @@ nonisolated struct PromptDTO: Decodable, Sendable {
     let id: String
     let kind: String
     let level: String
+    let audience: String?
     let sips: Int
     let player: String
     let target: String
@@ -14,10 +15,11 @@ nonisolated struct PromptDTO: Decodable, Sendable {
         guard
             let kind = PromptKind(rawValue: kind),
             let level = Level(rawValue: level),
+            let audience = Audience(rawValue: audience ?? Audience.friends.rawValue),
             let player = Self.playerRule(player),
             let target = Self.targetRule(target)
         else { return nil }
-        return Prompt(id: id, kind: kind, level: level, sips: sips, player: player, target: target, template: text)
+        return Prompt(id: id, kind: kind, level: level, audience: audience, sips: sips, player: player, target: target, template: text)
     }
 
     private static func playerRule(_ raw: String) -> PlayerRule? {

@@ -6,13 +6,22 @@ struct SipsChip: View {
     let kind: PromptKind
 
     var body: some View {
-        (kind == .statement ? Text("\(count) tises") : Text("Refus : \(count) tises"))
+        label
             .font(AppType.tag)
             .foregroundStyle(AppColors.accentSoft)
             .padding(.horizontal, 14)
             .padding(.vertical, 8)
             .background(AppColors.accent.opacity(0.18), in: .capsule)
             .overlay(Capsule().strokeBorder(AppColors.accent.opacity(0.35)))
+    }
+
+    private var label: Text {
+        switch kind {
+        case .statement: Text("\(count) tises")
+        case .truth, .dare, .ask: Text("Refus : \(count) tises")
+        case .vote: Text("Majorité : \(count) tises")
+        case .point: Text("Le plus pointé : \(count) tises")
+        }
     }
 }
 
