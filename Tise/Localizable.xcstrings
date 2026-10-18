@@ -42,17 +42,6 @@
         }
       }
     },
-    "À table" : {
-      "comment" : "Header of the list of players in the roster.",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "At the table"
-          }
-        }
-      }
-    },
     "Action" : {
       "comment" : "Button: the current player picks a dare.",
       "localizations" : {
@@ -200,6 +189,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Take turns picking Truth or Dare. A truth gets an honest answer, a dare gets done all the way. Refusing? Drink the sips on the card, no arguing. A sip of water counts too."
+          }
+        }
+      }
+    },
+    "Change entre femme et homme" : {
+      "comment" : "Accessibility hint of a player card: a tap switches the player's sex.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switches between woman and man"
           }
         }
       }
@@ -388,6 +388,17 @@
         }
       }
     },
+    "Personne à table pour l'instant" : {
+      "comment" : "Title of the roster page before any player is added.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nobody at the table yet"
+          }
+        }
+      }
+    },
     "Pimenté et osé, réservé aux 18 ans et plus" : {
       "comment" : "Description of the Hot level.",
       "localizations" : {
@@ -406,6 +417,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No cards left for this table"
+          }
+        }
+      }
+    },
+    "Prénom" : {
+      "comment" : "Accessibility label of the field where a player's first name is typed.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First name"
           }
         }
       }
@@ -473,6 +495,17 @@
         }
       }
     },
+    "Retirer %@" : {
+      "comment" : "Accessibility label of the button that removes a player; %@ is the player's name.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove %@"
+          }
+        }
+      }
+    },
     "Reviens en arrière pour changer de niveau ou ajouter des joueurs." : {
       "comment" : "Advice under the no-cards-left title.",
       "localizations" : {
@@ -513,6 +546,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        }
+      }
+    },
+    "Terminé" : {
+      "comment" : "Button that leaves the roster page.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         }
       }

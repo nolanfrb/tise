@@ -1,13 +1,11 @@
 import SwiftUI
 
-/// The pink button that shows how many players are at the table and opens the roster.
+/// The pink button that shows how many players are at the table and opens the roster page.
 struct PlayersButton: View {
-    let action: () -> Void
-
     @Environment(PlayerRoster.self) private var roster
 
     var body: some View {
-        Button(action: action) {
+        NavigationLink(value: PlayersRoute()) {
             Label("Joueurs (\(roster.players.count))", systemImage: "person.2.fill")
         }
         .buttonStyle(.raisedCompact)
@@ -15,6 +13,8 @@ struct PlayersButton: View {
 }
 
 #Preview("Players button") {
-    PlayersButton {}
-        .appPreview()
+    NavigationStack {
+        PlayersButton()
+    }
+    .appPreview()
 }
