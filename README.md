@@ -1,6 +1,6 @@
 # Tise
 
-Jeu de soirée iOS natif : **Action ou Vérité**, **Je n'ai jamais** et **Sans tact** (Potes ou Couple), niveaux Soft, Hot (Hard pour Sans tact) et Aléatoire.
+Jeu de soirée iOS natif : **Action ou Vérité**, **Je n'ai jamais**, **Sans tact** (Potes ou Couple) et **C'est un 10 mais**, niveaux Soft, Hot (Hard pour Sans tact) et Aléatoire.
 Les joueurs entrent leur prénom et leur sexe ; le jeu choisit les cartes qui conviennent à la table et nomme
 les autres joueurs dans les cartes ciblées. Aucun backend : la banque de cartes est embarquée dans l'app.
 
@@ -30,4 +30,4 @@ Mêmes conventions que Yuno : MVVM + Repository par feature, `@Observable` + `@E
 [`docs/guide-questions.md`](docs/guide-questions.md). Les cartes sont en français : c'est du contenu, elles ne
 se traduisent pas ; l'interface, elle, existe en français et en anglais.
 
-Les cartes sont originales. TOZ et Sans Tact ont servi de référence de format et de ton, aucune de leurs questions n'est reprise.
+Les cartes sont originales. TOZ, Sans Tact et les apps de « C'est un 10 mais » ont servi de référence de format et de ton, aucune de leurs questions n'est reprise.

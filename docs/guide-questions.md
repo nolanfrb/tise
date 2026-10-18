@@ -195,3 +195,75 @@ Le drama vient du **choix** qu'on impose (désigner, noter, comparer), jamais de
   belle-famille, vacances, jalousie gentille) ; en Hard, intimité, ex, fantasmes, défauts, sans cruauté.
 
 Le jeu élide tout seul « de » et « que » devant un prénom à voyelle : écrire `de {target}` normalement.
+
+## C'est un 10 mais
+
+Une personne parfaite (« un 10 »), puis un « mais » qui gâche tout. À trois, chacun montre sa nouvelle note
+avec ses doigts, de 0 à 10. La note la plus haute et la plus basse boivent les tises de la carte et défendent
+leur chiffre ; si tout le monde a mis la même note, tout le monde boit. Le lecteur change à chaque carte.
+
+### D'où viennent les règles
+
+Analyse du 18/10/2026 (démo web TOZ reconstituée depuis son code, ses articles, C.1.10, 10 Mais, Aperolt,
+Know Your Meme, NBC, Bustle, The Brag, un fil Goodreads ; le détail est dans le rapport de recherche de la
+session). Aucune carte n'est reprise : seules la mécanique et la structure le sont.
+
+- Le cœur du jeu est **l'écart entre les notes** : une carte réussie fait tomber la note pour une moitié de
+  la table et la laisse intacte pour l'autre.
+- Le défaut grave fait l'unanimité vers le bas, le défaut trop léger vers le haut : dans les deux cas, rien
+  ne se passe. On vise **le milieu qui divise**.
+- Les mots de fréquence dosent la carte : « a déjà fait X » divise, « fait X tous les jours » condamne.
+- Impliquer le joueur (« ton chien », « avec toi », « tes potes ») rend le défaut plus coûteux.
+- La démo TOZ part d'un 10 dans 4 cartes sur 5 ; le reste est en **mode inverse** : une note basse suivie
+  d'une qualité, qui peut faire monter la note.
+
+### La carte
+
+L'app affiche « C'est un {score}, mais… », puis le texte de la carte, qui **continue la phrase**.
+
+```json
+{"kind": "ten", "level": "soft", "score": 10, "sips": 2, "player": "any", "target": "none",
+ "text": "{x:il|elle} répond à tes messages par des captures d'écran de ses notes"}
+```
+
+| Champ | Valeurs |
+|---|---|
+| `kind` | `ten` |
+| `level` | `soft` ou `hot` |
+| `score` | `10` pour un défaut (environ 80 % des cartes) ; `2` à `6` pour le mode inverse, toujours suivi d'une qualité ou d'un atout |
+| `sips` | 1 à 3 en Soft, 2 à 4 en Hot : ce que boivent les notes extrêmes |
+| `player`, `target` | toujours `any` et `none` |
+| `text` | la suite de « C'est un 10, mais… », en minuscule, sans ponctuation finale, 4 à 14 mots |
+
+### Le genre de la personne décrite
+
+La personne décrite est du sexe opposé à celui du joueur qui lit. On l'écrit avec le jeton
+`{x:forme masculine|forme féminine}` : `{x:il|elle}`, `{x:prêt|prête}`, `{x:son mec|sa meuf}`.
+Quand une tournure sans accord existe, elle est préférable (« ses vocaux durent dix minutes », « son fond
+d'écran, c'est son ex »). Jamais de barre oblique (« il/elle »), jamais de « (e) ».
+
+### Ce qui fait une bonne carte
+
+- **Un comportement précis et visuel, au présent**, pas une étiquette : « applaudit quand l'avion atterrit »
+  oui, « est toxique » non. On doit voir la scène.
+- **Jamais le physique** qu'on ne choisit pas (taille, poids, visage, corps) : la note de départ en parle
+  déjà, le « mais » porte un goût, une habitude, un choix.
+- **Jamais grave** : violence, mensonge lourd, négligence, racisme, tromperie avérée tuent la carte (note 0
+  pour tout le monde) et la soirée.
+- **Jamais un genre dénigré** : la carte se lit aussi bien avec « il » qu'avec « elle ».
+- Personne réelle jamais visée : la personne décrite est fictive.
+
+### Familles, de la plus fertile à la moins fertile
+
+1. Goûts clivants : nourriture, musique, séries, astrologie, sport à la télé.
+2. Mode de vie : vape, boîte tous les week-ends, sport à 6 h, végan militant, gamer de nuit.
+3. Communication et réseaux : délai de réponse, vocaux, stories, ne s'affiche pas avec toi.
+4. Red flags relationnels légers et ambigus : ex encore présent, meilleur ami qui est l'ex, jalousie douce.
+5. Manies, « beige flags » : petites bizarreries ni bonnes ni mauvaises.
+6. Argent : radinerie, addition au centime, dépenses folles.
+7. Famille et entourage : mère très présente, potes envahissants.
+8. Mode inverse : une note basse et un atout, sérieux ou trivial (« C'est un 4, mais… »).
+9. Hygiène à petite dose, seulement les cas limites.
+10. Absurde : à saupoudrer, ça fait rire mais débattre peu.
+
+En Hot : intimité, sexe, préférences, ex, jalousie, applis — suggestif, jamais graphique, jamais le corps.
