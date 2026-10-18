@@ -56,6 +56,12 @@ final class GameViewModel {
         publish(deal(kind, for: currentPlayer))
     }
 
+    /// Replaces the card on the table with another of the same kind, for the same player.
+    func skip() {
+        guard case .loaded(let round) = state, case .card(let draw) = round.stage else { return }
+        publish(deal(draw.prompt.kind, for: draw.player))
+    }
+
     /// Moves on to the next round, handing the turn to the next player in truth or dare.
     func next() {
         if setup.game == .truthOrDare {

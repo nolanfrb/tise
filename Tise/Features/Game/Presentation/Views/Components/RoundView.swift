@@ -4,12 +4,13 @@ import SwiftUI
 struct RoundView: View {
     let round: Round
     let onChoose: (PromptKind) -> Void
+    let onSkip: () -> Void
     let onNext: () -> Void
 
     var body: some View {
         VStack(spacing: 22) {
             ZStack {
-                RoundCard(stage: round.stage)
+                RoundCard(stage: round.stage, onSkip: onSkip)
                     .id(round.number)
                     .cardTransition()
             }
@@ -26,6 +27,7 @@ struct RoundView: View {
 /// The card a stage puts on the table.
 private struct RoundCard: View {
     let stage: Round.Stage
+    let onSkip: () -> Void
 
     var body: some View {
         switch stage {
@@ -33,6 +35,7 @@ private struct RoundCard: View {
             TurnCard(player: player)
         case .card(let draw):
             PromptCard(draw: draw)
+                .swipeToSkip(onSkip: onSkip)
         case .exhausted:
             EmptyDeckCard()
         }
@@ -65,14 +68,14 @@ private struct RoundActions: View {
 
 #Preview("Round — choice") {
     if let player = PlayerPreviewData.players.first {
-        RoundView(round: Round(number: 1, stage: .choice(player)), onChoose: { _ in }, onNext: {})
+        RoundView(round: Round(number: 1, stage: .choice(player)), onChoose: { _ in }, onSkip: {}, onNext: {})
             .appPreview()
     }
 }
 
 #Preview("Round — card") {
     if let draw = PromptPreviewData.draw(.truth) {
-        RoundView(round: Round(number: 2, stage: .card(draw)), onChoose: { _ in }, onNext: {})
+        RoundView(round: Round(number: 2, stage: .card(draw)), onChoose: { _ in }, onSkip: {}, onNext: {})
             .appPreview()
     }
 }
