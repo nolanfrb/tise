@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "fr",
   "strings" : {
+    "%@ lit à voix haute : %@" : {
+      "comment" : "Line above a « They're a 10 but » card: the first %@ is the reader's name, the second the French opening of the card, kept as content.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ reads out loud: %@"
+          }
+        }
+      }
+    },
     "%lld tises" : {
       "comment" : "Sips at stake on a card in Never Have I Ever: those who have done it drink this many. « Tise » is the app's sip unit.",
       "localizations" : {
@@ -38,6 +49,17 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "10 MAIS" : {
+      "comment" : "Big colored words of the « They're a 10 but » tile, under its first line.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10 BUT"
           }
         }
       }
@@ -171,6 +193,39 @@
         }
       }
     },
+    "Au lit, en date, en sexto, réservé aux 18 ans et plus" : {
+      "comment" : "Description of the Hot level of « They're a 10 but ».",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In bed, on dates, in sexts, for ages 18 and up"
+          }
+        }
+      }
+    },
+    "C'est un" : {
+      "comment" : "First line of the « They're a 10 but » tile on the home screen, above the big colored words.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "They're a"
+          }
+        }
+      }
+    },
+    "C'est un 10 mais" : {
+      "comment" : "Name of the « They're a 10 but » game, used as a screen title.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "They're a 10 But"
+          }
+        }
+      }
+    },
     "Cartes jouées" : {
       "comment" : "Accessibility label of the progress bar of a party.",
       "localizations" : {
@@ -255,6 +310,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Light and friendly, to warm up the table"
+          }
+        }
+      }
+    },
+    "Goûts, manies et petits red flags, pour débattre entre potes" : {
+      "comment" : "Description of the Soft level of « They're a 10 but ».",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastes, quirks and small red flags, to argue about with friends"
           }
         }
       }
@@ -399,6 +465,17 @@
         }
       }
     },
+    "Le joueur indiqué lit la carte à voix haute. À trois, chacun montre sa nouvelle note avec ses doigts, de 0 à 10. La note la plus haute et la plus basse boivent les tises de la carte et défendent leur chiffre. Tout le monde a mis la même note ? Tout le monde boit. Glissez une carte vers la gauche pour la passer. Une tise d'eau, ça compte aussi." : {
+      "comment" : "Rules of « They're a 10 but », shown in an alert.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The named player reads the card out loud. On three, everyone shows their new score with their fingers, from 0 to 10. The highest and the lowest score drink the sips on the card and defend their number. Everyone gave the same score? Everyone drinks. Swipe a card left to skip it. A sip of water counts too."
+          }
+        }
+      }
+    },
     "Le mode Couple se joue à %lld joueurs exactement" : {
       "comment" : "Hint above the launch button when Couple mode has more than two players.",
       "localizations" : {
@@ -537,6 +614,47 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Majorité : %lld tises"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Notes extrêmes : %lld tises" : {
+      "comment" : "Sips the highest and the lowest score drink on a « They're a 10 but » card. « Tise » is the app's sip unit.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Extreme scores: %lld sip"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Extreme scores: %lld sips"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Notes extrêmes : %lld tise"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Notes extrêmes : %lld tises"
                 }
               }
             }

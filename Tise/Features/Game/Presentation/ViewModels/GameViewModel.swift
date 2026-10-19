@@ -81,7 +81,7 @@ final class GameViewModel {
             publish(currentPlayer.map(Round.Stage.choice) ?? .exhausted)
         case .neverHaveIEver:
             publish(deal([.statement], for: nil))
-        case .blunt:
+        case .blunt, .ten:
             publish(deal(setup.game.kinds, for: currentPlayer))
         }
     }

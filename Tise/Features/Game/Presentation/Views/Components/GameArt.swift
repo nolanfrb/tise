@@ -16,6 +16,8 @@ struct GameArt: View {
             GlowSymbol(name: "hand.raised.fingers.spread.fill", colors: [Color(hex: 0xFFE07A), Color(hex: 0xFF9F1C)], size: size)
         case .blunt:
             GlowSymbol(name: "quote.bubble.fill", colors: [Color(hex: 0xFFA26B), AppColors.blunt], size: size)
+        case .ten:
+            GlowSymbol(name: "10.circle.fill", colors: [Color(hex: 0xB9F8CF), AppColors.ten], size: size)
         }
     }
 }
@@ -25,6 +27,7 @@ struct GameArt: View {
         GameArt(game: .truthOrDare)
         GameArt(game: .neverHaveIEver)
         GameArt(game: .blunt)
+        GameArt(game: .ten)
     }
     .appPreview()
 }

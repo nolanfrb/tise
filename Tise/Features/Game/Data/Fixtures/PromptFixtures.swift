@@ -12,7 +12,9 @@ nonisolated enum PromptFixtures {
           {"id": "fx-dare", "kind": "dare", "level": "hot", "sips": 3, "player": "any", "target": "opposite",
            "text": "Murmure à l'oreille de {target} pourquoi tu {t:le|la} trouves {t:craquant|craquante}"},
           {"id": "fx-ask", "kind": "ask", "level": "soft", "audience": "friends", "sips": 2, "player": "any", "target": "none",
-           "text": "{player}, qui ici finit toujours par raconter la même anecdote ?"}
+           "text": "{player}, qui ici finit toujours par raconter la même anecdote ?"},
+          {"id": "fx-ten", "kind": "ten", "level": "soft", "score": 10, "sips": 2, "player": "any", "target": "none",
+           "text": "{x:il|elle} répond à tes messages par des captures d'écran de ses notes"}
         ]
         """.utf8
     )

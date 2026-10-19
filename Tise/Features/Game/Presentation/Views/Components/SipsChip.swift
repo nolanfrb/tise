@@ -21,6 +21,7 @@ struct SipsChip: View {
         case .truth, .dare, .ask: Text("Refus : \(count) tises")
         case .vote: Text("Majorité : \(count) tises")
         case .point: Text("Le plus pointé : \(count) tises")
+        case .ten: Text("Notes extrêmes : \(count) tises")
         }
     }
 }
