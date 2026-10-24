@@ -1,7 +1,8 @@
 # Guide d'écriture des questions — Tise
 
-Ce guide fait foi pour toute question ajoutée à la banque (`Tise/Features/Game/Data/Resources/prompts.json`).
-Il a servi de brief aux agents qui ont écrit la première banque.
+Ce guide fait foi sur le **format** de toute carte de la banque (`Tise/Features/Game/Data/Resources/prompts.json`) :
+champs, jetons, règles par type. Le **ton** fait foi dans `.claude/skills/tise-cards/references/charte.md`,
+calibrée avec Nolan le 24/10/2026 : en cas de désaccord sur la formulation, la charte gagne.
 
 ## D'où viennent les règles
 
