@@ -10,6 +10,8 @@ KINDS_BY_AUDIENCE = {"friends": {"statement", "truth", "dare", "ask", "vote", "p
 TARGETS = {"none", "any", "opposite", "same", "male", "female"}
 TOKEN = re.compile(r"\{(player|target|[ptx]:[^{}|]+\|[^{}|]+)\}")
 SEXTO = re.compile(r"sexto|\bsext|\bnudes?\b", re.I)
+WORK = re.compile(r"\bboulot|\btaff?\b|\btravail\b|collègue|\bboss\b|\bpatron|\bmanager\b|\bbureau\b|pot de départ|entretien d'embauche|\bstage\b", re.I)
+PHONE = re.compile(r"téléphone|galerie|messages?\b|\bappelle|\benvoie|\bstory|insta|snap|contacts?\b|\bappli|\blike\b|\bDM\b", re.I)
 CRUDE = re.compile(r"\bbais(e|er|é|ée|ait|es|ent|eur|euse)\b|levrette|rouler une pelle|\bpelle\b|\bsuc(e|er|é)\b|\bpipe\b|cunni", re.I)
 
 RULES = [
@@ -23,6 +25,7 @@ RULES = [
     ("warning", "mot en trop", r"\bjuste\b|\bvraiment\b|\bun peu\b|\bexactement\b|\bcarrément\b|\bau fond\b|^honnêtement", None),
     ("warning", "« ou » qui couvre plusieurs cas", r", ou (ton|ta|tes|ton dernier|ta dernière)\b", None),
     ("warning", "citation entre guillemets", r"«", None),
+    ("error", "mot écrit", r"inavouable|abîm|langoureu|ébats|émoi|charnel|sulfureu|torride", None),
 ]
 
 
@@ -73,7 +76,7 @@ def schema_issues(card):
         issues.append("apostrophe courbe")
     issues += kind_issues(kind, card, text, target)
     count = len(resolve(text).split())
-    if count > LIMITS[kind] or count < 3:
+    if count > LIMITS[kind] or count < 2:
         issues.append(f"{count} mots, plafond {LIMITS[kind]}")
     return issues
 
@@ -87,8 +90,8 @@ def kind_issues(kind, card, text, target):
             issues.append("Je n'ai jamais : minuscule, sans ponctuation finale, sans accord")
         if target not in ("none", "any") or card.get("player") != "any":
             issues.append("Je n'ai jamais : player any, target none ou any")
-    elif kind == "truth" and ending != "?":
-        issues.append("une Vérité finit par ?")
+    elif kind == "truth" and ending != "?" and not re.match(r"(Raconte|Décris|Pose|Cite|Dis|Donne|Nomme|Classe|Avoue)\b", resolve(text)):
+        issues.append("une Vérité finit par ?, sauf une consigne (Raconte, Décris, Cite…)")
     elif kind == "dare" and ending == "?":
         issues.append("une Action ne finit pas par ?")
     elif kind == "ask" and "{player}" not in text:
@@ -127,6 +130,13 @@ def quota_issues(cards):
         count = sum(1 for c in hot if pattern.search(c.get("text", "")))
         if count > ceiling:
             issues.append(f"{count} cartes Hot avec des {label}, plafond {ceiling}")
+    work = sum(1 for c in cards if WORK.search(c.get("text", "")))
+    if work > max(1, len(cards) // 50):
+        issues.append(f"{work} cartes sur le boulot, plafond {max(1, len(cards) // 50)}")
+    dares = [c for c in cards if c.get("kind") == "dare"]
+    on_phone = sum(1 for c in dares if PHONE.search(c.get("text", "")))
+    if dares and on_phone > 0.4 * len(dares):
+        issues.append(f"{on_phone} Actions sur {len(dares)} passent par le téléphone, plafond 40 %")
     return issues
 
 

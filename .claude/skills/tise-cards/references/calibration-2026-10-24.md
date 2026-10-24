@@ -68,3 +68,19 @@ Ce fichier est l'historique : la règle à appliquer est dans `charte.md`.
 - Des questions qui mènent à une réflexion (« qu'est-ce qui t'a fait choisir ton partenaire »).
 - Action ou Vérité « pas humanisé » : pas de métaphores, pas de choses infaisables.
 - Les exemples Sans Tact fournis sont « excellents, bien formulés, pas d'euphémisme, cash mais pas trop ».
+
+## Pilote du 24/10/2026 : 60 cartes écrites par la chaîne, 16 tirées au hasard pour Nolan
+
+Le critique a gardé 43 cartes sur 60 telles quelles, en a réécrit 16 et en a jeté une (« Appelle un de tes parents
+en haut-parleur et dis-lui que tu l'aimes »). Sur l'échantillon de 16, Nolan en a gardé **11 (69 %)**.
+
+| Lot | Gardées | Ce qui a été jeté, et pourquoi |
+|---|---|---|
+| Actions | 2 / 4 | « Laisse Léa swiper à ta place sur ton appli » et « Réponds au message que tu ignores depuis le plus longtemps » : pas franc (détour) |
+| Sans tact Hot | 2 / 4 | « Hugo et Léa, mettez-vous d'accord : qui a l'air d'embrasser le mieux ? » : bien, mais le duo n'apporte rien ; « qui a les fantasmes les plus inavouables » : pas franc (mot écrit) |
+| Vérités Hot | 4 / 4 | |
+| Je n'ai jamais Hot | 3 / 4 | « couché avec quelqu'un du boulot » : « trop de trucs sur le taf, il faut beaucoup réduire » |
+
+Règles ajoutées à la charte : pas de détour, pas de mot écrit, une mécanique sert la question ou disparaît, le
+boulot plafonné à une carte sur cinquante. Le plafond « téléphone » des Actions (40 %) vient du critique.
+

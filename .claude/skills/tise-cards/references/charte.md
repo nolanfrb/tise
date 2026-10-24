@@ -23,6 +23,9 @@ choix, une note, un aveu ou une vraie question, et la table réagit.
   joueur présent.
 - **Le mot de tous les jours** : « ton ex », pas « ta dernière histoire ».
 - **Un français correct** : accords, « si Léa voulait » et non « si Léa voudrait ».
+- **« Jamais + de » quand ça se dit, une tournure orale sinon** : « eu de plan cul » se dit ; « demandé de nude » se
+  lit comme une coquille (le lecteur attend un verbe après « de ») et devient « demandé à quelqu'un de m'envoyer un
+  nude ». Au besoin, mettre l'objet sous un infinitif ou une subordonnée, ou passer au pluriel (« reçu de reproches »).
 
 ## 2. Les joueurs présents
 
@@ -42,6 +45,13 @@ choix, une note, un aveu ou une vraie question, et la table réagit.
   ment le plus ? ».
 - **Les mots qui n'ajoutent rien partent** : juste, vraiment, un peu, exactement, carrément, au fond,
   « honnêtement » en ouverture.
+- **Pas de détour** : la tournure la plus directe gagne. « Laisse Léa swiper à ta place » et « réponds au message
+  que tu ignores depuis le plus longtemps » ont été jetés pour « pas franc » ; « Laisse les autres lire tes derniers
+  messages avec ton ex » a été gardé.
+- **Pas de mot écrit** : « inavouables » a fait jeter une carte. On dit « tordus », « bizarres », « honteux ». Même
+  famille : abîmer, langoureux, ébats, émoi, charnel, sulfureux, torride.
+- **Une mécanique sert la question ou disparaît** : le duo « mettez-vous d'accord » ne vaut que si les deux joueurs
+  doivent vraiment trancher ensemble ; sinon la question va à un seul joueur.
 
 ## 4. Zéro formule
 
@@ -67,6 +77,10 @@ ou l'humour ».
 - **Jamais de matériel** : bandeau, nourriture, glaçon, chantilly.
 - **Jamais de faux scénario envers un proche** : appeler sa mère pour lui mentir.
 - **Jamais sans enjeu** : échanger son haut.
+- **Le téléphone est un support, pas un thème** : au plus 40 % des Actions d'un lot passent par lui (galerie,
+  messages, appels, applis). Le reste se joue dans la pièce : contact, aveu en face, choix entre présents.
+- **Pas d'appel à un proche pour une déclaration hors contexte** : la table n'a rien à décider, seul le proche
+  réagit (le critique a jeté « Appelle un de tes parents en haut-parleur et dis-lui que tu l'aimes »).
 
 ## 6. Vérités qui font réfléchir
 
@@ -110,6 +124,8 @@ en bien reste permis : « Qu'est-ce que tu préfères sur ton corps ? ».
 - Les sextos et les nudes restent, mais rarement : au plus une carte Hot sur cinquante dans un lot, écrite
   simplement (« envoyé un nude à quelqu'un que je connaissais depuis moins d'une semaine »).
 - Aucun thème au-delà de 15 % d'un lot.
+- Le boulot (collègues, boss, pots de départ, bureau) fatigue : au plus une carte sur cinquante dans un lot. Il
+  était concentré dans les Vérités Soft (12 sur 150) et les Je n'ai jamais (14 sur 440).
 
 ## 10. Longueur
 

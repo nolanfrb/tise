@@ -75,7 +75,7 @@ Le jeu élide tout seul « de » et « que » devant un prénom qui commence par
   pas d'auxiliaire être (« allé », « tombé », « sorti » au sens être), pas d'adjectif (« été jaloux »).
   Tourner autrement : « eu une crise de jalousie », « fini la soirée dans un autre lit ».
 - Négation : « jamais » appelle « de/d' » devant un complément indéfini (« eu **de** crush », « pris **de** râteau »).
-- 4 à 14 mots. Concret et visuel plutôt qu'abstrait.
+- 12 mots au plus (charte). Concret et visuel plutôt qu'abstrait.
 - Vise un **taux de « déjà fait » de 20 à 70 %** dans un groupe de 20-30 ans.
 - `{target}` permis (« menti à {target} ») avec `target: "any"` ; jamais de `{p:…}`.
 
@@ -184,12 +184,12 @@ Le drama vient du **choix** qu'on impose (désigner, noter, comparer), jamais de
 
 ### Règles par type
 
-- **`ask`** : contient `{player}` exactement une fois (le plus souvent en tête : « {player}, … »), finit par
-  « ? », 6 à 24 mots. `{target}` permis selon `target`. Accords avec `{p:…|…}` (joueur) et `{t:…|…}` (cible).
+- **`ask`** : contient `{player}` (le plus souvent en tête : « {player}, … ») ; une question finit par « ? »,
+  une consigne (devinette, tour de table, question à poser, note entre deux joueurs) non ; 20 mots au plus. `{target}` permis selon `target`. Accords avec `{p:…|…}` (joueur) et `{t:…|…}` (cible).
 - **`vote`** (Potes seulement) : commence par « Levez la main si », contient `{target}` (`target` : `any`,
   `male` ou `female`), pas de `{player}` ni de `{p:…}`, `{t:…|…}` permis, pas de « ? » final, 8 à 24 mots.
-- **`point`** : commence par « À trois, pointez », aucun jeton, `target: "none"`, pas de « ? » final,
-  6 à 22 mots. En Couple : « celui ou celle de vous deux qui… ».
+- **`point`** : commence par « À trois, pointez » ou « Votez tous pour », aucun jeton, `target: "none"`,
+  pas de « ? » final, 20 mots au plus. En Couple : « celui ou celle de vous deux qui… ».
 - **Couple** : seulement `ask` et `point`. Une carte `ask` de couple parle presque toujours de l'autre :
   `target: "any"` (la table n'a que deux joueurs, `{target}` est donc le ou la partenaire). Jamais
   `opposite` ni `same` : le couple peut être de même sexe. Elle reste légère en Soft (habitudes, souvenirs,
