@@ -92,8 +92,9 @@ Le jeu élide tout seul « de » et « que » devant un prénom qui commence par
   rien qui casse, rien qui blesse, rien dehors la nuit.
 - Ce qui sort du groupe (message, story, appel) reste gentil ou drôle, jamais humiliant pour un tiers, jamais
   définitif (pas de publication qu'on ne peut pas supprimer ensuite).
-- Contact physique avec un autre joueur : uniquement en Hot ou en geste amical en Soft (câlin, high-five),
-  toujours avec `{target}` pour que la personne soit nommée et puisse refuser elle aussi.
+- Contact physique avec un autre joueur : en Hot seulement, un bisou sur la joue ou un baiser, toujours avec
+  `{target}` pour que la personne soit nommée et puisse refuser elle aussi. Les familles d'Actions permises sont
+  dans la charte (`.claude/skills/tise-cards/references/charte.md`, section 5).
 - 8 à 25 mots, impératif.
 
 ## Soft et Hot

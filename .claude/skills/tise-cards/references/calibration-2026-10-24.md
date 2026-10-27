@@ -82,5 +82,29 @@ en haut-parleur et dis-lui que tu l'aimes »). Sur l'échantillon de 16, Nolan e
 | Je n'ai jamais Hot | 3 / 4 | « couché avec quelqu'un du boulot » : « trop de trucs sur le taf, il faut beaucoup réduire » |
 
 Règles ajoutées à la charte : pas de détour, pas de mot écrit, une mécanique sert la question ou disparaît, le
-boulot plafonné à une carte sur cinquante. Le plafond « téléphone » des Actions (40 %) vient du critique.
+boulot plafonné à une carte sur cinquante. Le plafond « téléphone » des Actions (40 %) venait du critique ;
+il a sauté au tour 2.
 
+
+## Tour 2 du pilote : 44 cartes écrites par la chaîne, 16 tirées au hasard pour Nolan
+
+Le tour couvre ce que le premier n'avait pas testé : Actions Soft et Hot, Sans tact Soft et Hot, Vérités et
+Je n'ai jamais Soft. Le critique a gardé 32 cartes, en a réécrit 11 et en a jeté une. Sur l'échantillon de 16,
+Nolan en a gardé **10 (62 %)**, et 10 sur 12 hors Actions (83 %).
+
+| Lot | Gardées | Ce qui a été jeté, et pourquoi |
+|---|---|---|
+| Actions | 0 / 4 | « Assieds-toi entre les deux personnes ici avec qui tu pourrais sortir », « Dis à Léa un truc que tu as déjà dit dans son dos », « Trinque avec tout le monde sauf avec la personne qui t'agace le plus », « Montre à la table ta liste de meilleurs amis sur Snap » : bizarre, raison donnée par Nolan : rituel inventé |
+| Sans tact | 3 / 4 | « Hugo, avec qui ici Léa s'entendrait le mieux au lit ? » : pas assez direct, « avec qui ici Léa pourrait coucher ? » |
+| Vérités Soft | 4 / 4 | |
+| Je n'ai jamais Soft | 3 / 4 | « éteint la lumière pour ne pas ouvrir à quelqu'un » (réécrite par le critique) : bizarre |
+
+Sur les deux tours, les Actions font 2 sur 8 et les Vérités 8 sur 8.
+
+Ce que Nolan veut en priorité pour les Actions : le téléphone exposé, les messages hors soirée, et en Hot « quelques
+trucs de contact genre bisous sur la joue, embrasser, mais le reste bof, surtout que ça ne doit pas mener à une
+potentielle VSS ».
+
+Règles ajoutées à la charte : les Actions limitées à trois familles, aucun rituel inventé, le contact arrêté au bisou
+et au baiser (une Action Hot sur cinq au plus), rien dont la conséquence dure après la soirée, le plafond téléphone
+retiré.

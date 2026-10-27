@@ -47,7 +47,8 @@ choix, une note, un aveu ou une vraie question, et la table réagit.
   « honnêtement » en ouverture.
 - **Pas de détour** : la tournure la plus directe gagne. « Laisse Léa swiper à ta place » et « réponds au message
   que tu ignores depuis le plus longtemps » ont été jetés pour « pas franc » ; « Laisse les autres lire tes derniers
-  messages avec ton ex » a été gardé.
+  messages avec ton ex » a été gardé. Même faute en Sans tact : « avec qui ici Léa s'entendrait le mieux au lit ? »
+  devient « avec qui ici Léa pourrait coucher ? ».
 - **Pas de mot écrit** : « inavouables » a fait jeter une carte. On dit « tordus », « bizarres », « honteux ». Même
   famille : abîmer, langoureux, ébats, émoi, charnel, sulfureux, torride.
 - **Une mécanique sert la question ou disparaît** : le duo « mettez-vous d'accord » ne vaut que si les deux joueurs
@@ -70,15 +71,27 @@ ou l'humour ».
 
 ## 5. Actions
 
-- **Un geste réel avec un enjeu réel** : montrer la dernière photo de sa galerie, donner son téléphone
-  déverrouillé, envoyer « tu me manques » à son ex et montrer la réponse, laisser quelqu'un écrire sa story,
-  s'asseoir sur les genoux de quelqu'un, embrasser quelqu'un dans le cou.
+Une Action appartient à l'une de ces trois familles, et à aucune autre :
+
+| Famille | Ce que Nolan a gardé |
+|---|---|
+| **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story |
+| **Message hors soirée** : à un ex, un crush, un pote, et la table lit la réponse | envoyer « tu me manques » à son ex et montrer la réponse |
+| **Contact en Hot**, rare : un bisou sur la joue ou un baiser, avec `{target}` | — |
+
+- **Jamais de rituel inventé** : un geste que personne ne fait en soirée. Le tour 2 en a jeté quatre sur quatre
+  pour « bizarre » : s'asseoir entre les deux personnes avec qui on pourrait sortir, trinquer avec tout le monde sauf
+  une personne, dire à quelqu'un un truc dit dans son dos, montrer sa liste de meilleurs amis sur Snap.
+- **Le contact s'arrête au bisou et au baiser** : jamais de caresse, de suçon, de geste sous les vêtements, de
+  « là où il veut », de genoux ou de cou. Nolan : rien qui puisse mener à une violence sexiste ou sexuelle. Au plus
+  une Action Hot sur cinq, toujours avec `{target}` nommé, qui peut refuser comme tout joueur.
+- **Pas d'Action en Soft qui touche quelqu'un.**
 - **Jamais d'impro ni d'imitation** : voix off, GPS, bulletin météo, documentaire, chanter à son verre.
 - **Jamais de matériel** : bandeau, nourriture, glaçon, chantilly.
 - **Jamais de faux scénario envers un proche** : appeler sa mère pour lui mentir.
 - **Jamais sans enjeu** : échanger son haut.
-- **Le téléphone est un support, pas un thème** : au plus 40 % des Actions d'un lot passent par lui (galerie,
-  messages, appels, applis). Le reste se joue dans la pièce : contact, aveu en face, choix entre présents.
+- **Varier le geste** : aucun geste (montrer, lire, liker, envoyer, appeler, laisser faire) sur plus d'un quart des
+  Actions d'un lot.
 - **Pas d'appel à un proche pour une déclaration hors contexte** : la table n'a rien à décider, seul le proche
   réagit (le critique a jeté « Appelle un de tes parents en haut-parleur et dis-lui que tu l'aimes »).
 
@@ -98,7 +111,8 @@ Pas de bilan de vie : « Dans quoi tu te sens en retard sur les gens de ton âge
 
 Le drama fort est bienvenu tant que c'est un choix, une note ou une opinion : « Qui ici tu inviterais en
 dernier à ton mariage ? », « Levez la main si Léa serait la pire personne à qui confier un secret ». Jamais
-d'attaque sur un physique qu'on n'a pas choisi, l'argent, la santé ou l'origine. Parler de son propre corps
+d'attaque sur un physique qu'on n'a pas choisi, l'argent, la santé ou l'origine. Rien dont la conséquence dure
+après la soirée : une marque sur la peau, une amitié cassée. Parler de son propre corps
 en bien reste permis : « Qu'est-ce que tu préfères sur ton corps ? ».
 
 ## 8. Les structures de Sans tact
@@ -110,7 +124,7 @@ en bien reste permis : « Qu'est-ce que tu préfères sur ton corps ? ».
 | Question à un joueur | `ask` | `{player}, quelle est la pire chose que tu aies dite à un ex ?` |
 | Question sur un autre joueur | `ask` | `{player}, qu'est-ce que {target} ne supporterait pas chez un partenaire ?` |
 | Duo qui se concerte | `ask` | `{player} et {target}, mettez-vous d'accord : qui ici a le plus de mal à dire non ?` |
-| Note entre deux joueurs | `ask` | `{player} et {target}, au décompte de trois, notez sur 10 votre envie de partir en vacances ensemble` |
+| Note entre deux joueurs | `ask` | `{player} et {target}, à trois, notez sur 10 votre envie de partir en vacances ensemble` |
 | Devinette | `ask` | `{player}, décris le pire date d'une personne ici sans dire qui, les autres devinent` |
 | Tour de table | `ask` | `Thème : les manies de {player}. {player} commence, le dernier à trouver gagne` |
 | Question à poser | `ask` | `{player}, pose à {target} la question que tu n'as jamais osé lui poser` |
@@ -123,7 +137,8 @@ en bien reste permis : « Qu'est-ce que tu préfères sur ton corps ? ».
 
 - Les sextos et les nudes restent, mais rarement : au plus une carte Hot sur cinquante dans un lot, écrite
   simplement (« envoyé un nude à quelqu'un que je connaissais depuis moins d'une semaine »).
-- Aucun thème au-delà de 15 % d'un lot.
+- Aucun thème au-delà de 15 % d'un lot. Un thème est un sujet précis (le plan à trois, les ex, le boulot), pas une
+  famille entière : en Hot, le sexe et l'attirance sont l'objet même du niveau.
 - Le boulot (collègues, boss, pots de départ, bureau) fatigue : au plus une carte sur cinquante dans un lot. Il
   était concentré dans les Vérités Soft (12 sur 150) et les Je n'ai jamais (14 sur 440).
 

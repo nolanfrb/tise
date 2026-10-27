@@ -11,7 +11,7 @@ TARGETS = {"none", "any", "opposite", "same", "male", "female"}
 TOKEN = re.compile(r"\{(player|target|[ptx]:[^{}|]+\|[^{}|]+)\}")
 SEXTO = re.compile(r"sexto|\bsext|\bnudes?\b", re.I)
 WORK = re.compile(r"\bboulot|\btaff?\b|\btravail\b|collègue|\bboss\b|\bpatron|\bmanager\b|\bbureau\b|pot de départ|entretien d'embauche|\bstage\b", re.I)
-PHONE = re.compile(r"téléphone|galerie|messages?\b|\bappelle|\benvoie|\bstory|insta|snap|contacts?\b|\bappli|\blike\b|\bDM\b", re.I)
+CONTACT = re.compile(r"\bbisou|\bembrasse|\bpelle\b|\bbaiser\b", re.I)
 CRUDE = re.compile(r"\bbais(e|er|é|ée|ait|es|ent|eur|euse)\b|levrette|rouler une pelle|\bpelle\b|\bsuc(e|er|é)\b|\bpipe\b|cunni", re.I)
 
 RULES = [
@@ -22,6 +22,9 @@ RULES = [
     ("error", "comparaison ou métaphore", r"comme si\b|\bfaçon\b|\ben mode\b|\btel(le)? (un|une)\b|digne d'un", {"dare"}),
     ("warning", "comparaison ou métaphore", r"comme si\b|\bfaçon\b|\ben mode\b|\btel(le)? (un|une)\b|digne d'un", {"statement", "truth", "ask", "vote", "point", "ten"}),
     ("error", "matériel", r"bandeau|yeux bandés|glaçon|chantilly|nourriture|\bmiel\b|bougie|menottes|plume|fouet", {"dare"}),
+    ("error", "contact au-delà du bisou", r"caress|\bmass(e|er)\b|sous (son|ton|sa|ta|ses|tes) |suçon|genoux|cuisse|lèch|mordill|déshabill|là où|\bcou\b|fesse|\bseins?\b", {"dare"}),
+    ("error", "rituel inventé", r"\bassieds-toi\b|\bassois-toi\b|\btrinque\b|\ben rang\b|\bmets les autres\b", {"dare"}),
+    ("warning", "Vérité déguisée en Action", r"^(Dis|Raconte|Avoue|Explique|Murmure|Répète)\b", {"dare"}),
     ("warning", "mot en trop", r"\bjuste\b|\bvraiment\b|\bun peu\b|\bexactement\b|\bcarrément\b|\bau fond\b|^honnêtement", None),
     ("warning", "« ou » qui couvre plusieurs cas", r", ou (ton|ta|tes|ton dernier|ta dernière)\b", None),
     ("warning", "citation entre guillemets", r"«", None),
@@ -118,6 +121,8 @@ def style_issues(card):
     if CRUDE.search(text):
         severity = "error" if "{target}" in text or " ici" in text or card.get("level") != "hot" else "warning"
         issues.append((severity, "mot cru"))
+    if card.get("kind") == "dare" and CONTACT.search(text) and (card.get("level") != "hot" or "{target}" not in text):
+        issues.append(("error", "contact hors Hot ou sans {target}"))
     return issues
 
 
@@ -133,10 +138,10 @@ def quota_issues(cards):
     work = sum(1 for c in cards if WORK.search(c.get("text", "")))
     if work > max(1, len(cards) // 50):
         issues.append(f"{work} cartes sur le boulot, plafond {max(1, len(cards) // 50)}")
-    dares = [c for c in cards if c.get("kind") == "dare"]
-    on_phone = sum(1 for c in dares if PHONE.search(c.get("text", "")))
-    if dares and on_phone > 0.4 * len(dares):
-        issues.append(f"{on_phone} Actions sur {len(dares)} passent par le téléphone, plafond 40 %")
+    hot_dares = [c for c in hot if c.get("kind") == "dare"]
+    touching = sum(1 for c in hot_dares if CONTACT.search(c.get("text", "")))
+    if touching > max(1, len(hot_dares) // 5):
+        issues.append(f"{touching} Actions Hot avec un contact, plafond {max(1, len(hot_dares) // 5)}")
     return issues
 
 
