@@ -28,7 +28,8 @@ RULES = [
     ("warning", "mot en trop", r"\bjuste\b|\bvraiment\b|\bun peu\b|\bexactement\b|\bcarrément\b|\bau fond\b|^honnêtement", None),
     ("warning", "« ou » qui couvre plusieurs cas", r", ou (ton|ta|tes|ton dernier|ta dernière)\b", None),
     ("warning", "citation entre guillemets", r"«", None),
-    ("error", "mot écrit", r"inavouable|abîm|langoureu|ébats|émoi|charnel|sulfureu|torride", None),
+    ("error", "mot écrit", r"inavouable|abîm|langoureu|ébats|\bémoi\b|charnel|sulfureu|torride", None),
+    ("error", "« la bande » au lieu de « ici »", r"\bla bande\b|\bcette bande\b|\bbande de potes\b", None),
 ]
 
 

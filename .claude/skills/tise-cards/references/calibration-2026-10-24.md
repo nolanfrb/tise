@@ -108,3 +108,25 @@ potentielle VSS ».
 Règles ajoutées à la charte : les Actions limitées à trois familles, aucun rituel inventé, le contact arrêté au bisou
 et au baiser (une Action Hot sur cinq au plus), rien dont la conséquence dure après la soirée, le plafond téléphone
 retiré.
+
+## Tour 3 du pilote (28/10/2026) : 12 Actions, 8 tirées au hasard pour Nolan
+
+Le lot a été écrit dans les trois familles de la charte. Le critique a gardé 7 cartes, en a réécrit 4 et en a jeté une
+(« Montre à la table à qui tu as envoyé ton dernier nude » : le nude et le prénom d'un absent s'affichent). Sur
+l'échantillon de 8, Nolan en a gardé **5 (62 %)**, contre 0 sur 4 au tour 2.
+
+| Carte | Verdict | Raison donnée par Nolan |
+|---|---|---|
+| Appelle ton dernier date devant nous et propose-lui de vous revoir | garde | |
+| Laisse Léa réécrire ta bio d'appli de rencontre, et garde-la jusqu'à demain | garde | |
+| Montre à tout le monde la dernière vidéo de toi bourré | garde | |
+| Laisse Léa faire défiler ta galerie pendant dix secondes | garde | |
+| Montre à la table ta photo la plus gênante avec Léa | garde | |
+| Lis à voix haute le dernier message où tu as écrit « je t'aime » | bizarre | « personne ne sait quand c'était » |
+| Envoie ton selfie le plus sexy de ce soir à ton crush, on lit sa réponse | bizarre | « personne ne prend de selfie sexy » ; message irréel |
+| Demande à ton ex quel était ton point fort au lit, et montre-nous sa réponse | bizarre | message irréel, trop pour l'absent |
+
+Règles ajoutées à la charte : le téléphone montre ce qui est déjà là et se trouve en un geste ; un message hors soirée
+est un message qu'on pourrait envoyer pour de vrai, sans gêner l'absent.
+
+En parallèle, Nolan a relevé en jouant que « la bande de potes » « n'a pas de sens » : les joueurs sont « ici ».

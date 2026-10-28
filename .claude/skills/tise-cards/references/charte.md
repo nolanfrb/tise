@@ -22,6 +22,8 @@ choix, une note, un aveu ou une vraie question, et la table réagit.
   quatre fois sur quatre contre la version crue. Au plus une carte Hot sur cinquante, et jamais pour juger un
   joueur présent.
 - **Le mot de tous les jours** : « ton ex », pas « ta dernière histoire ».
+- **Les joueurs sont « ici »** : « qui ici », « d'entre vous », « tes potes ». Jamais « la bande », « cette bande »,
+  « le groupe » pour parler de la table : « ça n'a pas de sens », et 41 cartes de la banque ont été corrigées pour ça.
 - **Un français correct** : accords, « si Léa voulait » et non « si Léa voudrait ».
 - **« Jamais + de » quand ça se dit, une tournure orale sinon** : « eu de plan cul » se dit ; « demandé de nude » se
   lit comme une coquille (le lecteur attend un verbe après « de ») et devient « demandé à quelqu'un de m'envoyer un
@@ -75,9 +77,18 @@ Une Action appartient à l'une de ces trois familles, et à aucune autre :
 
 | Famille | Ce que Nolan a gardé |
 |---|---|
-| **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story |
-| **Message hors soirée** : à un ex, un crush, un pote, et la table lit la réponse | envoyer « tu me manques » à son ex et montrer la réponse |
+| **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story, montrer la dernière vidéo de soi bourré, laisser Léa faire défiler sa galerie dix secondes, montrer sa photo la plus gênante avec Léa, laisser Léa réécrire sa bio d'appli jusqu'à demain |
+| **Message hors soirée** : à un ex, un crush, un pote, et la table lit la réponse | envoyer « tu me manques » à son ex et montrer la réponse, appeler son dernier date devant tout le monde pour lui proposer de se revoir |
 | **Contact en Hot**, rare : un bisou sur la joue ou un baiser, avec `{target}` | — |
+
+- **Le téléphone montre ce qui est déjà là et se trouve en un geste** : la dernière photo, la galerie, la dernière
+  vidéo, une conversation précise. Jamais ce qu'il faut chercher sans savoir où (« le dernier message où tu as écrit
+  je t'aime » : « personne ne sait quand c'était »), ni ce que la plupart des gens n'ont pas (« ton selfie le plus
+  sexy de ce soir » : « personne ne prend de selfie sexy »).
+- **Un message hors soirée est un message qu'on pourrait envoyer pour de vrai**, et que l'absent reçoit sans être
+  mis mal à l'aise : « tu me manques », « on se revoit ? ». Jamais une question que personne ne pose, ni un truc
+  gênant pour quelqu'un qui n'a rien demandé (« demande à ton ex quel était ton point fort au lit » a été jeté pour
+  ces deux raisons).
 
 - **Jamais de rituel inventé** : un geste que personne ne fait en soirée. Le tour 2 en a jeté quatre sur quatre
   pour « bizarre » : s'asseoir entre les deux personnes avec qui on pourrait sortir, trinquer avec tout le monde sauf
