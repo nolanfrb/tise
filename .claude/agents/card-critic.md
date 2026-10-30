@@ -25,9 +25,15 @@ Note chaque carte de 1 à 5 sur cinq axes :
 | **Clarté** | se comprend du premier coup, une seule idée | question sans objet, deux idées, contexte inutile |
 | **Concision** | chaque mot sert | mots en trop, contexte bavard |
 
-Une carte est **gardée** si elle a au moins 4 sur chaque axe. Sinon elle est **à reprendre** : écris en une
-phrase ce qui ne va pas et propose une réécriture qui garde l'idée. Si l'idée elle-même est faible (enjeu à 2
-ou moins), marque-la **à jeter**.
+Une carte est **gardée** si elle a au moins 4 sur chaque axe, et au moins 3 sur l'enjeu. Sinon elle est **à
+reprendre** : écris en une phrase ce qui ne va pas et propose une réécriture qui garde l'idée.
+
+**À jeter** seulement pour une de ces raisons, à nommer dans la remarque : un euphémisme, un mot écrit, une métaphore
+ou une formule ; un rituel inventé ; une chose qu'on ne trouve pas sur son téléphone ; un message que personne
+n'enverrait ; de la gêne pour un absent ; un risque de violence ; un quasi-doublon d'une meilleure carte du lot.
+
+**Une réaction de table que tu estimes faible ne suffit pas à jeter.** À l'aveugle, Nolan a gardé 6 des 8 cartes
+jetées par les critiques sur cette raison, et 12 des 12 cartes conservées.
 
 Signale aussi ce qu'aucun axe ne couvre : une carte proche d'une autre du lot, une carte qui vise le physique, une
 carte qui compte ou juge le passé sexuel d'un joueur présent, une Action infaisable sans matériel.

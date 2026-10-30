@@ -152,3 +152,26 @@ Règle ajoutée à la charte : la carte s'arrête dès que le geste ou la questi
 de phrase de ce type dans les Actions.
 
 Sur les quatre tours, les Actions font 2 sur 4, 0 sur 4, 5 sur 8, puis 8 sur 8 sur l'idée.
+
+## Tour 5 (30/10/2026) : la réécriture des Actions, 20 cartes à l'aveugle
+
+Trois rédacteurs ont écrit 122 Actions, 12 autres venaient de l'ancienne banque et des tours précédents, et une carte
+écartée par son rédacteur a été ajoutée. Les critiques en ont conservé 42 sur 132 une fois les doublons retirés. Nolan a
+jugé 20 cartes sans savoir de quel côté elles venaient :
+
+| Côté du critique | Gardées par Nolan | Jetées par Nolan |
+|---|---|---|
+| Conservées | 12 / 12 | |
+| Jetées | 6 / 8 | « Laisse Léa lire à voix haute ta dernière conversation de drague » (bizarre), « Laisse Léa changer la langue de ton téléphone » (chiant) |
+
+Cartes jetées par le critique et gardées par Nolan : « Écris « tu cherches quoi avec moi ? » à ton dernier plan cul »,
+« Prouve-nous que tu n'as aucune appli de rencontre sur ton téléphone », « Excuse-toi auprès de ton frère ou ta sœur
+pour votre dernière engueulade », « Désabonne-toi de ton ex sur Insta devant tout le monde », « Envoie un selfie de ce
+soir à un de tes parents », « Demande à un pote de te présenter quelqu'un ».
+
+Le critique était trop dur, à cause de sa consigne (« un lot où tout est gardé est suspect ») et d'une réaction de table
+estimée. Sa grille ne jette plus sur cette seule estimation. Les cartes jetées ont été relues à la main : 47 sur 90
+reviennent, les autres sortent pour une raison nommée (message irréel, introuvable, absent exposé, thème plein).
+
+Résultat : 108 Actions, 63 en Soft et 45 en Hot, contre 299 avant. Le thème de l'ex fait 8 cartes sur 45 en Hot (18 %),
+au-dessus du plafond de 15 %, parce que Nolan en a validé 7.

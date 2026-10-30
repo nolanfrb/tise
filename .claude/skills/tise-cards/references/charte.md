@@ -82,7 +82,7 @@ Une Action appartient à l'une de ces trois familles, et à aucune autre :
 | Famille | Ce que Nolan a gardé |
 |---|---|
 | **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story, montrer la dernière vidéo de soi bourré, laisser Léa faire défiler sa galerie dix secondes, montrer sa photo la plus gênante avec Léa, laisser Léa réécrire sa bio d'appli jusqu'à demain, laisser Léa ouvrir la conversation de son choix, laisser Léa répondre à son dernier message reçu, liker la dernière photo de son ex et garder son like jusqu'à demain, montrer la dernière photo qu'on a supprimée, montrer sous quel nom Léa est dans ses contacts, lire à voix haute son dernier message non lu |
-| **Message hors soirée** : à un ex, un crush, un pote | envoyer « tu me manques » à son ex, envoyer « tu dors ? » à son dernier plan cul, appeler son dernier date devant tout le monde pour lui proposer de se revoir |
+| **Message hors soirée** : à un ex, un crush, un pote | envoyer « tu me manques » à son ex, envoyer « tu dors ? » à son dernier plan cul, appeler son dernier date devant tout le monde pour lui proposer de se revoir, proposer un verre à son ex, s'excuser auprès de son frère ou sa sœur, envoyer un selfie de ce soir à un de ses parents, demander à un pote de lui présenter quelqu'un |
 | **Contact en Hot**, rare : un bisou sur la joue ou un baiser, avec `{target}` | « Embrasse Léa, si elle est d'accord » |
 
 - **Le téléphone montre ce qui est déjà là et se trouve en un geste** : la dernière photo, la galerie, la dernière
