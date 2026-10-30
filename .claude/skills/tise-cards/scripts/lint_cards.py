@@ -9,7 +9,7 @@ SIPS = {"soft": range(1, 4), "hot": range(2, 6)}
 KINDS_BY_AUDIENCE = {"friends": {"statement", "truth", "dare", "ask", "vote", "point", "ten"}, "couple": {"ask", "point"}}
 TARGETS = {"none", "any", "opposite", "same", "male", "female"}
 TOKEN = re.compile(r"\{(player|target|[ptx]:[^{}|]+\|[^{}|]+)\}")
-SEXTO = re.compile(r"sexto|\bsext|\bnudes?\b", re.I)
+SEXTO = re.compile(r"\bsextos?\b|\bnudes?\b", re.I)
 WORK = re.compile(r"\bboulot|\btaff?\b|\btravail\b|collègue|\bboss\b|\bpatron|\bmanager\b|\bbureau\b|pot de départ|entretien d'embauche|\bstage\b", re.I)
 CONTACT = re.compile(r"\bbisou|\bembrasse|\bpelle\b|\bbaiser\b", re.I)
 CRUDE = re.compile(r"\bbais(e|er|é|ée|ait|es|ent|eur|euse)\b|levrette|rouler une pelle|\bpelle\b|\bsuc(e|er|é)\b|\bpipe\b|cunni", re.I)
@@ -23,6 +23,7 @@ RULES = [
     ("warning", "comparaison ou métaphore", r"comme si\b|\bfaçon\b|\ben mode\b|\btel(le)? (un|une)\b|digne d'un", {"statement", "truth", "ask", "vote", "point", "ten"}),
     ("error", "matériel", r"bandeau|yeux bandés|glaçon|chantilly|nourriture|\bmiel\b|bougie|menottes|plume|fouet", {"dare"}),
     ("error", "contact au-delà du bisou", r"caress|\bmass(e|er)\b|sous (son|ton|sa|ta|ses|tes) |suçon|genoux|cuisse|lèch|mordill|déshabill|là où|\bcou\b|fesse|\bseins?\b", {"dare"}),
+    ("error", "mise en contexte par deux-points", r"^(?!.*(mettez-vous d'accord :|^Thème :)).* : ", None),
     ("error", "rituel inventé", r"\bassieds-toi\b|\bassois-toi\b|\btrinque\b|\ben rang\b|\bmets les autres\b", {"dare"}),
     ("error", "phrase à rallonge", r"\bet dis pourquoi\b|\bet explique\b|\bon lit sa réponse\b|\b(montre|lis)-nous sa réponse\b|\bet montre (la|sa) réponse\b", {"dare"}),
     ("warning", "Vérité déguisée en Action", r"^(Dis|Raconte|Avoue|Explique|Murmure|Répète)\b", {"dare"}),

@@ -152,3 +152,70 @@ Règle ajoutée à la charte : la carte s'arrête dès que le geste ou la questi
 de phrase de ce type dans les Actions.
 
 Sur les quatre tours, les Actions font 2 sur 4, 0 sur 4, 5 sur 8, puis 8 sur 8 sur l'idée.
+
+## Tour 5 (30/10/2026) : la réécriture des Actions, 20 cartes à l'aveugle
+
+Trois rédacteurs ont écrit 122 Actions, 12 autres venaient de l'ancienne banque et des tours précédents, et une carte
+écartée par son rédacteur a été ajoutée. Les critiques en ont conservé 42 sur 132 une fois les doublons retirés. Nolan a
+jugé 20 cartes sans savoir de quel côté elles venaient :
+
+| Côté du critique | Gardées par Nolan | Jetées par Nolan |
+|---|---|---|
+| Conservées | 12 / 12 | |
+| Jetées | 6 / 8 | « Laisse Léa lire à voix haute ta dernière conversation de drague » (bizarre), « Laisse Léa changer la langue de ton téléphone » (chiant) |
+
+Cartes jetées par le critique et gardées par Nolan : « Écris « tu cherches quoi avec moi ? » à ton dernier plan cul »,
+« Prouve-nous que tu n'as aucune appli de rencontre sur ton téléphone », « Excuse-toi auprès de ton frère ou ta sœur
+pour votre dernière engueulade », « Désabonne-toi de ton ex sur Insta devant tout le monde », « Envoie un selfie de ce
+soir à un de tes parents », « Demande à un pote de te présenter quelqu'un ».
+
+Le critique était trop dur, à cause de sa consigne (« un lot où tout est gardé est suspect ») et d'une réaction de table
+estimée. Sa grille ne jette plus sur cette seule estimation. Les cartes jetées ont été relues à la main : 47 sur 90
+reviennent, les autres sortent pour une raison nommée (message irréel, introuvable, absent exposé, thème plein).
+
+Résultat : 108 Actions, 63 en Soft et 45 en Hot, contre 299 avant. Le thème de l'ex fait 8 cartes sur 45 en Hot (18 %),
+au-dessus du plafond de 15 %, parce que Nolan en a validé 7.
+
+## Tour 6 (31/10/2026) : le tri des Vérités et des Je n'ai jamais, 24 cartes à l'aveugle
+
+Quatre critiques ont trié les 740 anciennes cartes : 219 gardées, 400 réécrites, 121 jetées. Vingt cartes ont été tirées
+à l'aveugle, cinq par lot :
+
+| Côté du critique | Gardées par Nolan | Jetées par Nolan |
+|---|---|---|
+| Gardées telles quelles | 8 / 8 | |
+| Réécrites | 7 / 8 | « gardé le chien de Léa pour un week-end » (chiant) |
+| Jetées | 3 / 4 | « pris l'ascenseur pour monter un seul étage » (chiant) |
+
+Cartes jetées par le critique et gardées par Nolan : « Pour un premier date ciné avec Léa, quel film tu choisis ? »,
+« Pour combien d'euros tu redonnerais une chance à ton pire ex, juste une nuit ? », « entendu de sextoy vibrer dans un
+sac au mauvais moment ». Elles ne reviennent pas : 641 cartes restent, la deuxième sortait comme formule et la troisième
+sur le quota.
+
+Un rédacteur a ajouté 30 Vérités Soft sur l'ex, le couple, l'attirance et la famille, absents du tri. Sur 4 cartes tirées,
+Nolan en a gardé 3 telles quelles et a précisé la dernière : « Tu fais quoi quand quelqu'un te plaît ? » devient
+« Comment tu fais comprendre à quelqu'un qu'il te plaît ? ». Une question reste précise.
+
+## Tour 7 (31/10/2026) : le tri de Sans tact et de C'est un 10, 20 cartes à l'aveugle
+
+Cinq critiques ont trié 1 119 cartes : 492 gardées, 550 réécrites, 77 jetées. Quatre cartes par lot ont été tirées à
+l'aveugle :
+
+| Côté du critique | Gardées par Nolan | Détail |
+|---|---|---|
+| Gardées telles quelles | 3 / 5 | une changée, une jetée |
+| Réécrites | 10 / 10 | |
+| Jetées | 4 / 5 | deux gardées avec une coupe |
+
+Ce que Nolan a changé ou jeté :
+
+| Carte | Réponse |
+|---|---|
+| Hugo, ton ex débarque ce soir : tu demandes à Léa de jouer ta nouvelle meuf ? | pas de deux-points, « si ton ex débarque ce soir, tu demandes… » |
+| Hugo, quelle réputation tu crois avoir ici, et elle est méritée ? | mieux si un autre joueur parle de la réputation de quelqu'un |
+| C'est un 3, mais elle se souvient de chacun de tes fantasmes, même dits en passant | « retire le même dits en passant » |
+| C'est un 10, mais elle est persuadée d'avoir été un dauphin dans une vie antérieure | bizarre |
+| Hugo, quelle promesse d'amour tu trouves la plus ringarde, mais que tu ferais quand même ? | chiant |
+
+Règle ajoutée à la charte : pas de mise en contexte par deux-points. Les 9 cartes de la banque qui en avaient encore
+sont réécrites. Le contrôleur les refuse.

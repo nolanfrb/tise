@@ -69,7 +69,10 @@ Ce que Nolan a rejeté le plus durement :
 - les verbes imagés : « des screens qui dorment dans ta galerie » ;
 - les citations détournées : « au bout de combien de « bon, j'y vais » Léa part vraiment ? » ;
 - les comparaisons et les mises en scène : « comme une liste de courses », « façon bulletin météo » ;
-- la phrase bien trouvée qui cache une question sans objet.
+- la phrase bien trouvée qui cache une question sans objet ;
+- la mise en contexte par deux-points : « Hugo, ton ex débarque ce soir : tu demandes à Léa de jouer ta nouvelle meuf ? » devient
+  « Hugo, si ton ex débarque ce soir, tu demandes à Léa de jouer ta nouvelle meuf ? ». Seuls « mettez-vous d'accord : »
+  et « Thème : » gardent leurs deux-points.
 
 Une bonne idée mal écrite se réécrit à plat : « remplacé la douche par trois coups de déo » devient « zappé
 la douche et mis du déo à la place ». Une liste d'options réelles reste permise : « l'intelligence, la beauté
@@ -82,7 +85,7 @@ Une Action appartient à l'une de ces trois familles, et à aucune autre :
 | Famille | Ce que Nolan a gardé |
 |---|---|
 | **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story, montrer la dernière vidéo de soi bourré, laisser Léa faire défiler sa galerie dix secondes, montrer sa photo la plus gênante avec Léa, laisser Léa réécrire sa bio d'appli jusqu'à demain, laisser Léa ouvrir la conversation de son choix, laisser Léa répondre à son dernier message reçu, liker la dernière photo de son ex et garder son like jusqu'à demain, montrer la dernière photo qu'on a supprimée, montrer sous quel nom Léa est dans ses contacts, lire à voix haute son dernier message non lu |
-| **Message hors soirée** : à un ex, un crush, un pote | envoyer « tu me manques » à son ex, envoyer « tu dors ? » à son dernier plan cul, appeler son dernier date devant tout le monde pour lui proposer de se revoir |
+| **Message hors soirée** : à un ex, un crush, un pote | envoyer « tu me manques » à son ex, envoyer « tu dors ? » à son dernier plan cul, appeler son dernier date devant tout le monde pour lui proposer de se revoir, proposer un verre à son ex, s'excuser auprès de son frère ou sa sœur, envoyer un selfie de ce soir à un de ses parents, demander à un pote de lui présenter quelqu'un |
 | **Contact en Hot**, rare : un bisou sur la joue ou un baiser, avec `{target}` | « Embrasse Léa, si elle est d'accord » |
 
 - **Le téléphone montre ce qui est déjà là et se trouve en un geste** : la dernière photo, la galerie, la dernière
@@ -137,7 +140,7 @@ en bien reste permis : « Qu'est-ce que tu préfères sur ton corps ? ».
 | Structure | Type | Exemple écrit pour cette charte |
 |---|---|---|
 | Question à un joueur | `ask` | `{player}, quelle est la pire chose que tu aies dite à un ex ?` |
-| Question sur un autre joueur | `ask` | `{player}, qu'est-ce que {target} ne supporterait pas chez un partenaire ?` |
+| Question sur un autre joueur | `ask` | `{player}, quelle réputation a {target} ici, et elle est méritée ?` |
 | Duo qui se concerte | `ask` | `{player} et {target}, mettez-vous d'accord : qui ici a le plus de mal à dire non ?` |
 | Note entre deux joueurs | `ask` | `{player} et {target}, à trois, notez sur 10 votre envie de partir en vacances ensemble` |
 | Devinette | `ask` | `{player}, décris le pire date d'une personne ici sans dire qui, les autres devinent` |
