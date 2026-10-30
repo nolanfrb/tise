@@ -189,9 +189,33 @@ Quatre critiques ont trié les 740 anciennes cartes : 219 gardées, 400 réécri
 
 Cartes jetées par le critique et gardées par Nolan : « Pour un premier date ciné avec Léa, quel film tu choisis ? »,
 « Pour combien d'euros tu redonnerais une chance à ton pire ex, juste une nuit ? », « entendu de sextoy vibrer dans un
-sac au mauvais moment ». Elles ne reviennent pas : 641 cartes restent, et la deuxième sortait sur le plafond des formules,
-la troisième sur le quota.
+sac au mauvais moment ». Elles ne reviennent pas : 641 cartes restent, la deuxième sortait comme formule et la troisième
+sur le quota.
 
 Un rédacteur a ajouté 30 Vérités Soft sur l'ex, le couple, l'attirance et la famille, absents du tri. Sur 4 cartes tirées,
 Nolan en a gardé 3 telles quelles et a précisé la dernière : « Tu fais quoi quand quelqu'un te plaît ? » devient
 « Comment tu fais comprendre à quelqu'un qu'il te plaît ? ». Une question reste précise.
+
+## Tour 7 (31/10/2026) : le tri de Sans tact et de C'est un 10, 20 cartes à l'aveugle
+
+Cinq critiques ont trié 1 119 cartes : 492 gardées, 550 réécrites, 77 jetées. Quatre cartes par lot ont été tirées à
+l'aveugle :
+
+| Côté du critique | Gardées par Nolan | Détail |
+|---|---|---|
+| Gardées telles quelles | 3 / 5 | une changée, une jetée |
+| Réécrites | 10 / 10 | |
+| Jetées | 4 / 5 | deux gardées avec une coupe |
+
+Ce que Nolan a changé ou jeté :
+
+| Carte | Réponse |
+|---|---|
+| Hugo, ton ex débarque ce soir : tu demandes à Léa de jouer ta nouvelle meuf ? | pas de deux-points, « si ton ex débarque ce soir, tu demandes… » |
+| Hugo, quelle réputation tu crois avoir ici, et elle est méritée ? | mieux si un autre joueur parle de la réputation de quelqu'un |
+| C'est un 3, mais elle se souvient de chacun de tes fantasmes, même dits en passant | « retire le même dits en passant » |
+| C'est un 10, mais elle est persuadée d'avoir été un dauphin dans une vie antérieure | bizarre |
+| Hugo, quelle promesse d'amour tu trouves la plus ringarde, mais que tu ferais quand même ? | chiant |
+
+Règle ajoutée à la charte : pas de mise en contexte par deux-points. Les 9 cartes de la banque qui en avaient encore
+sont réécrites. Le contrôleur les refuse.

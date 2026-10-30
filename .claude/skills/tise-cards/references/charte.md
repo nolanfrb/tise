@@ -69,7 +69,10 @@ Ce que Nolan a rejeté le plus durement :
 - les verbes imagés : « des screens qui dorment dans ta galerie » ;
 - les citations détournées : « au bout de combien de « bon, j'y vais » Léa part vraiment ? » ;
 - les comparaisons et les mises en scène : « comme une liste de courses », « façon bulletin météo » ;
-- la phrase bien trouvée qui cache une question sans objet.
+- la phrase bien trouvée qui cache une question sans objet ;
+- la mise en contexte par deux-points : « Hugo, ton ex débarque ce soir : tu demandes à Léa de jouer ta nouvelle meuf ? » devient
+  « Hugo, si ton ex débarque ce soir, tu demandes à Léa de jouer ta nouvelle meuf ? ». Seuls « mettez-vous d'accord : »
+  et « Thème : » gardent leurs deux-points.
 
 Une bonne idée mal écrite se réécrit à plat : « remplacé la douche par trois coups de déo » devient « zappé
 la douche et mis du déo à la place ». Une liste d'options réelles reste permise : « l'intelligence, la beauté
@@ -137,7 +140,7 @@ en bien reste permis : « Qu'est-ce que tu préfères sur ton corps ? ».
 | Structure | Type | Exemple écrit pour cette charte |
 |---|---|---|
 | Question à un joueur | `ask` | `{player}, quelle est la pire chose que tu aies dite à un ex ?` |
-| Question sur un autre joueur | `ask` | `{player}, qu'est-ce que {target} ne supporterait pas chez un partenaire ?` |
+| Question sur un autre joueur | `ask` | `{player}, quelle réputation a {target} ici, et elle est méritée ?` |
 | Duo qui se concerte | `ask` | `{player} et {target}, mettez-vous d'accord : qui ici a le plus de mal à dire non ?` |
 | Note entre deux joueurs | `ask` | `{player} et {target}, à trois, notez sur 10 votre envie de partir en vacances ensemble` |
 | Devinette | `ask` | `{player}, décris le pire date d'une personne ici sans dire qui, les autres devinent` |
