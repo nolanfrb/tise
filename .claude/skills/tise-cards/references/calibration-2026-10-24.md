@@ -175,3 +175,23 @@ reviennent, les autres sortent pour une raison nommée (message irréel, introuv
 
 Résultat : 108 Actions, 63 en Soft et 45 en Hot, contre 299 avant. Le thème de l'ex fait 8 cartes sur 45 en Hot (18 %),
 au-dessus du plafond de 15 %, parce que Nolan en a validé 7.
+
+## Tour 6 (31/10/2026) : le tri des Vérités et des Je n'ai jamais, 24 cartes à l'aveugle
+
+Quatre critiques ont trié les 740 anciennes cartes : 219 gardées, 400 réécrites, 121 jetées. Vingt cartes ont été tirées
+à l'aveugle, cinq par lot :
+
+| Côté du critique | Gardées par Nolan | Jetées par Nolan |
+|---|---|---|
+| Gardées telles quelles | 8 / 8 | |
+| Réécrites | 7 / 8 | « gardé le chien de Léa pour un week-end » (chiant) |
+| Jetées | 3 / 4 | « pris l'ascenseur pour monter un seul étage » (chiant) |
+
+Cartes jetées par le critique et gardées par Nolan : « Pour un premier date ciné avec Léa, quel film tu choisis ? »,
+« Pour combien d'euros tu redonnerais une chance à ton pire ex, juste une nuit ? », « entendu de sextoy vibrer dans un
+sac au mauvais moment ». Elles ne reviennent pas : 641 cartes restent, et la deuxième sortait sur le plafond des formules,
+la troisième sur le quota.
+
+Un rédacteur a ajouté 30 Vérités Soft sur l'ex, le couple, l'attirance et la famille, absents du tri. Sur 4 cartes tirées,
+Nolan en a gardé 3 telles quelles et a précisé la dernière : « Tu fais quoi quand quelqu'un te plaît ? » devient
+« Comment tu fais comprendre à quelqu'un qu'il te plaît ? ». Une question reste précise.
