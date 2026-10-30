@@ -42,9 +42,13 @@ choix, une note, un aveu ou une vraie question, et la table réagit.
 
 - **Pas de « ou » qui couvre tous les cas** : « la personne avec qui tu es, ou ton dernier ex » devient « la
   personne avec qui tu es ». Si la carte ne colle pas au joueur, il la passe.
-- **Une relance qui force à raconter est bienvenue** : « et pourquoi ? », « et sur quoi ? », « propose-leur un
+- **Dans une question, une relance qui force à raconter est bienvenue** : « et pourquoi ? », « et sur quoi ? », « propose-leur un
   titre ». À la calibration, « Qui ici te ment le plus souvent, selon toi, et sur quoi ? » a battu « Qui ici te
   ment le plus ? ».
+- **La carte s'arrête dès que le geste ou la question est posé** : pas de phrase à rallonge. « Lis à voix haute ton
+  dernier message non lu, et dis pourquoi » perd « et dis pourquoi », « Envoie « tu dors ? » à ton dernier plan cul,
+  on lit sa réponse » perd « on lit sa réponse ». Une précision ne reste que si elle change l'enjeu : « et garde ton
+  like jusqu'à demain ».
 - **Les mots qui n'ajoutent rien partent** : juste, vraiment, un peu, exactement, carrément, au fond,
   « honnêtement » en ouverture.
 - **Pas de détour** : la tournure la plus directe gagne. « Laisse Léa swiper à ta place » et « réponds au message
@@ -77,9 +81,9 @@ Une Action appartient à l'une de ces trois familles, et à aucune autre :
 
 | Famille | Ce que Nolan a gardé |
 |---|---|
-| **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story, montrer la dernière vidéo de soi bourré, laisser Léa faire défiler sa galerie dix secondes, montrer sa photo la plus gênante avec Léa, laisser Léa réécrire sa bio d'appli jusqu'à demain |
-| **Message hors soirée** : à un ex, un crush, un pote, et la table lit la réponse | envoyer « tu me manques » à son ex et montrer la réponse, appeler son dernier date devant tout le monde pour lui proposer de se revoir |
-| **Contact en Hot**, rare : un bisou sur la joue ou un baiser, avec `{target}` | — |
+| **Téléphone exposé** : montrer, lire, liker, laisser faire | montrer la dernière photo de sa galerie, donner son téléphone déverrouillé, laisser les autres lire ses derniers messages avec son ex, liker la plus vieille photo de son crush, laisser quelqu'un écrire sa story, montrer la dernière vidéo de soi bourré, laisser Léa faire défiler sa galerie dix secondes, montrer sa photo la plus gênante avec Léa, laisser Léa réécrire sa bio d'appli jusqu'à demain, laisser Léa ouvrir la conversation de son choix, laisser Léa répondre à son dernier message reçu, liker la dernière photo de son ex et garder son like jusqu'à demain, montrer la dernière photo qu'on a supprimée, montrer sous quel nom Léa est dans ses contacts, lire à voix haute son dernier message non lu |
+| **Message hors soirée** : à un ex, un crush, un pote | envoyer « tu me manques » à son ex, envoyer « tu dors ? » à son dernier plan cul, appeler son dernier date devant tout le monde pour lui proposer de se revoir |
+| **Contact en Hot**, rare : un bisou sur la joue ou un baiser, avec `{target}` | « Embrasse Léa, si elle est d'accord » |
 
 - **Le téléphone montre ce qui est déjà là et se trouve en un geste** : la dernière photo, la galerie, la dernière
   vidéo, une conversation précise. Jamais ce qu'il faut chercher sans savoir où (« le dernier message où tu as écrit
@@ -93,7 +97,7 @@ Une Action appartient à l'une de ces trois familles, et à aucune autre :
 - **Jamais de rituel inventé** : un geste que personne ne fait en soirée. Le tour 2 en a jeté quatre sur quatre
   pour « bizarre » : s'asseoir entre les deux personnes avec qui on pourrait sortir, trinquer avec tout le monde sauf
   une personne, dire à quelqu'un un truc dit dans son dos, montrer sa liste de meilleurs amis sur Snap.
-- **Le contact s'arrête au bisou et au baiser** : jamais de caresse, de suçon, de geste sous les vêtements, de
+- **Le contact s'arrête au bisou et au baiser**, sans préciser où pour un baiser : jamais de caresse, de suçon, de geste sous les vêtements, de
   « là où il veut », de genoux ou de cou. Nolan : rien qui puisse mener à une violence sexiste ou sexuelle. Au plus
   une Action Hot sur cinq, toujours avec `{target}` nommé, qui peut refuser comme tout joueur.
 - **Pas d'Action en Soft qui touche quelqu'un.**

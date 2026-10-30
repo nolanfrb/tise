@@ -24,6 +24,7 @@ RULES = [
     ("error", "matériel", r"bandeau|yeux bandés|glaçon|chantilly|nourriture|\bmiel\b|bougie|menottes|plume|fouet", {"dare"}),
     ("error", "contact au-delà du bisou", r"caress|\bmass(e|er)\b|sous (son|ton|sa|ta|ses|tes) |suçon|genoux|cuisse|lèch|mordill|déshabill|là où|\bcou\b|fesse|\bseins?\b", {"dare"}),
     ("error", "rituel inventé", r"\bassieds-toi\b|\bassois-toi\b|\btrinque\b|\ben rang\b|\bmets les autres\b", {"dare"}),
+    ("error", "phrase à rallonge", r"\bet dis pourquoi\b|\bet explique\b|\bon lit sa réponse\b|\b(montre|lis)-nous sa réponse\b|\bet montre (la|sa) réponse\b", {"dare"}),
     ("warning", "Vérité déguisée en Action", r"^(Dis|Raconte|Avoue|Explique|Murmure|Répète)\b", {"dare"}),
     ("warning", "mot en trop", r"\bjuste\b|\bvraiment\b|\bun peu\b|\bexactement\b|\bcarrément\b|\bau fond\b|^honnêtement", None),
     ("warning", "« ou » qui couvre plusieurs cas", r", ou (ton|ta|tes|ton dernier|ta dernière)\b", None),

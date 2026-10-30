@@ -19,8 +19,8 @@ Lis en entier, dans cet ordre :
 - Respecte le jeu, le niveau, le public, le nombre de cartes et le chemin donnés par l'appelant. Écris un
   tableau JSON en UTF-8, apostrophe droite, sans champ `id`.
 - Chaque carte se dit comme un pote la dirait à table : franche, simple, en français correct. Aucun euphémisme,
-  aucune formule, aucune mise en scène, aucun matériel. Une carte, une idée ; une relance seulement si elle fait
-  raconter.
+  aucune formule, aucune mise en scène, aucun matériel. Une carte, une idée ; une relance seulement dans une
+  question, si elle fait raconter. La carte s'arrête dès que le geste ou la question est posé.
 - Varie les structures (charte, section 8) et les thèmes (aucun au-delà de 15 %). Respecte les plafonds de
   longueur et de sextos.
 - Écris du neuf. Si l'appelant te donne des exemples externes, ils servent au ton et aux structures : n'en

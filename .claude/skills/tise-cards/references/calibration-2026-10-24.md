@@ -130,3 +130,25 @@ Règles ajoutées à la charte : le téléphone montre ce qui est déjà là et 
 est un message qu'on pourrait envoyer pour de vrai, sans gêner l'absent.
 
 En parallèle, Nolan a relevé en jouant que « la bande de potes » « n'a pas de sens » : les joueurs sont « ici ».
+
+## Tour 4 du pilote (30/10/2026) : 12 Actions, 8 tirées au hasard pour Nolan
+
+Le critique a gardé 9 cartes, en a réécrit 2 et en a jeté une (« Rappelle ton dernier appel manqué, et mets le
+haut-parleur »). Sur l'échantillon de 8, Nolan n'a jeté **aucune idée** : 5 cartes gardées telles quelles, 3 gardées
+avec une coupe, soit 62 % au mot près et 100 % sur l'idée. Les trois coupes sont le même défaut.
+
+| Carte | Verdict de Nolan |
+|---|---|
+| Laisse Léa ouvrir la conversation de son choix sur ton téléphone | garde |
+| Laisse Léa répondre à ton dernier message reçu | garde |
+| Like la dernière photo de ton ex, et garde ton like jusqu'à demain | garde |
+| Montre-nous la dernière photo que tu as supprimée | garde |
+| Montre à la table sous quel nom Léa est dans tes contacts | garde |
+| Embrasse Léa sur la bouche, si elle est d'accord | « c'est bon, mais ne spécifie pas sur la bouche » |
+| Envoie « tu dors ? » à ton dernier plan cul, on lit sa réponse | « parfaite, mais retire le on lit sa réponse, c'est inutile » |
+| Lis à voix haute ton dernier message non lu, et dis pourquoi | « parfait, mais pas de et dis pourquoi : c'est ce genre de truc que tu rajoutes et qui ne sert à rien, on ne doit pas avoir des phrases à rallonge » |
+
+Règle ajoutée à la charte : la carte s'arrête dès que le geste ou la question est posé. Le contrôleur refuse les fins
+de phrase de ce type dans les Actions.
+
+Sur les quatre tours, les Actions font 2 sur 4, 0 sur 4, 5 sur 8, puis 8 sur 8 sur l'idée.
