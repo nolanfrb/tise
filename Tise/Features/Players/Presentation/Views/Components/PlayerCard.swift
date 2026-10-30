@@ -6,22 +6,24 @@ struct PlayerCard: View {
     let onToggleGender: () -> Void
     let onRemove: () -> Void
 
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+
     var body: some View {
         HStack(spacing: 10) {
             Button(action: onToggleGender) {
-                HStack(spacing: 10) {
-                    PlayerAvatar(player: player)
+                HStack(spacing: 12) {
+                    if !dynamicTypeSize.isAccessibilitySize {
+                        PlayerAvatar(player: player)
+                    }
                     VStack(alignment: .leading, spacing: 2) {
                         Text(verbatim: player.name)
                             .font(AppType.headline)
                             .foregroundStyle(AppColors.textPrimary)
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.7)
                         Label(player.gender.title, systemImage: player.gender.symbol)
                             .font(AppType.tag)
                             .foregroundStyle(player.gender.tint)
                     }
-                    Spacer(minLength: 0)
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .contentShape(.rect)
             }
@@ -30,6 +32,7 @@ struct PlayerCard: View {
             Button("Retirer \(player.name)", systemImage: "xmark", action: onRemove)
                 .labelStyle(.iconOnly)
                 .font(AppType.tag)
+                .dynamicTypeSize(...DynamicTypeSize.accessibility1)
                 .foregroundStyle(AppColors.textSecondary)
                 .frame(width: 44, height: 44)
                 .contentShape(.rect)
@@ -58,12 +61,24 @@ private struct PlayerAvatar: View {
     }
 }
 
-#Preview("Player cards") {
-    LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+private var previewCards: some View {
+    VStack(spacing: 12) {
         ForEach(PlayerPreviewData.players) { player in
             PlayerCard(player: player, onToggleGender: {}, onRemove: {})
         }
+        PlayerCard(player: Player(name: "Marie-Charlotte", gender: .female), onToggleGender: {}, onRemove: {})
+        PlayerCard(player: Player(name: "Maximilien-Alexandre", gender: .male), onToggleGender: {}, onRemove: {})
     }
     .padding()
-    .appPreview()
+}
+
+#Preview("Player cards") {
+    previewCards
+        .appPreview()
+}
+
+#Preview("Player cards — largest text") {
+    previewCards
+        .dynamicTypeSize(.accessibility5)
+        .appPreview()
 }

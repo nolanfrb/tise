@@ -12,8 +12,6 @@ struct PlayersScreen: View {
     @State private var draftGender = Gender.female
     @FocusState private var isNameFocused: Bool
 
-    private let columns = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
-
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
@@ -22,7 +20,7 @@ struct PlayersScreen: View {
                 if roster.players.isEmpty {
                     EmptyRosterNote()
                 } else {
-                    LazyVGrid(columns: columns, spacing: 12) {
+                    VStack(spacing: 12) {
                         ForEach(roster.players) { player in
                             PlayerCard(
                                 player: player,
